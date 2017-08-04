@@ -1,0 +1,40 @@
+<div class="show-title-text" >
+  <%= @product.artist %><br>
+  <%= @product.name %><br>
+  <% if @product.year_made.present? %>
+   <%= @product.year_made.strftime("%Y") %><br>
+   $ <%= @product.price %>
+    <span class="badge">
+      Viewed <%= @product.viewed! %> times
+    </span>
+  <% end %>
+</div>
+
+<div class="show-container">
+  <div class="show-container-text">
+    <%= @product.description %>
+  </div>
+  
+  <div> 
+  <%= image_tag(@product.image_url, :class =>"product_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@product.image_url') %><br>
+  <%= image_tag(@product.img2_url, :class =>"product_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@product.img2_url') %>
+  </div>
+</div>
+
+<%= form_tag "/payments/create" do %>
+  <%= hidden_field_tag :product_id, @product.id %>
+  <%= render partial: "/shared/stripe_checkout_button" %>
+<% end %>
+
+<div class = "box_following_list">
+  <button class="btn btn-default"><%= link_to 'Edit', edit_product_path(@product) %> </button> |
+  <button class="btn btn-default"><%= link_to 'Back', products_path, method: :get %></button>
+</div>
+
+<div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
+<div class="comments-box" data-product-id="<%= @product.id %>">
+  <%= render 'new_comment', product: @product.id %>
+  <%= render 'comments' %>
+</div>
+
+

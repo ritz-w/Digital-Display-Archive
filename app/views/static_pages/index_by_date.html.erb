@@ -1,0 +1,34 @@
+<div class="page-header">
+  <h2>Sort by Date</h2>
+    <p>Hover over the dates in the timeline to see the link to the artwork.</p>
+</div>
+<div class="page-content">
+
+<div class="container">
+  <div class="row vertical-divider">
+  <% @products.each_with_index do |product1, i| %>
+    <div class="col-md-6 timeline-column"> <!-- left content div-->
+      <nav class="hover-effect cl-effect-16" id="<%= cycle("timeline-year-left", "timeline-year-right", :name => "first_cycler") -%>"><%= link_to product1.year_made.strftime("%Y"), product1, :class => "click-into-show-link", :data=>{"hover" => product1.year_made.strftime("%Y")} %>
+      </nav>
+      <p class="<%= cycle("timeline-title-left", "timeline-title-right", :name => "second_cycler") -%>" >
+      <%= product1.artist %><br>
+      <%= product1.name %><br>
+      </p>
+    </div> <!-- end left content div-->
+
+    <% if ((i+1) % 2) == 0 %>
+    </div>
+  <div class="row vertical-divider">
+
+    <% else %>
+    <div class="col-md-6 timeline-column"> <!--empty right div-->
+      <Br>
+    </div> <!-- end empty right div-->
+  </div><!--end row-->
+  <div class="row vertical-divider">
+    <div class="col-md-6 timeline-column"> <!--empty LEFT div-->
+      <Br>
+    </div><!--end empty Left div-->
+  <% end %>
+  <% end %>
+</div>

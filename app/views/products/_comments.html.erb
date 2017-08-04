@@ -1,0 +1,28 @@
+<div class="product-reviews">
+  <h4>Previous Product Reviews:</h4>
+  <div class="row comment-entry">
+    <h6>Average Rating:</h6>
+    <div class="rated" id="average-rating" data-score="<%= @product.average_rating %>">
+    </div> 
+  </div>
+
+  <% @comments.each do |comment| %>
+  <div class="row comment-entry">
+    <hr class="dots"><br>
+    <div class="col-md-12">
+      <h4><%= comment.user.first_name %></h4>
+      <small><em><%= "#{time_ago_in_words(comment.created_at)} ago" %></em>
+      </small>     
+      <% if signed_in? && current_user.admin? %>
+        <%= link_to ('<span class="glyphicon glyphicon-remove"></span>').html_safe, product_comment_path(comment.product, comment), method: :delete, data: { confirm: 'Are you sure?' } %>
+      <% end %>
+      <div class="rated" data-score="<%= comment.rating %>">
+      </div>
+        <%= comment.body %> 
+    </div>         
+  </div>
+  <% end %>
+
+  <hr class="dots">
+  <%= will_paginate @comments, class: "paginate-nav" %>
+</div>

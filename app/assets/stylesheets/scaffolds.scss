@@ -1,0 +1,99 @@
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.3em;
+  line-height: 18px;
+  margin: 0px;
+}
+
+p, ol, ul, td {
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.dropdown-menu {
+  font-size: 1em;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: black;
+
+  &:visited {
+    color: #000;
+  }
+
+  &:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+th {
+  padding-bottom: 10px;
+}
+
+td {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Padauk', sans-serif;
+  font-size: 0.8em;
+  border-bottom: 1px solid #e1ae9e;
+
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 30px;
+  }
+}
+
+#notice {
+  color: black;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+label {
+  display: block;
+}

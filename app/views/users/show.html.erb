@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<div class="container">
+  <h2>User Information   <%= link_to edit_user_path(@user), class: "btn btn-large btn-default" do %>
+    <i class="glyphicon glyphicon-pencil"></i> Edit 
+<% end %>
+<br></h2> 
+<br>
+  <div class="panel-group">
+    <div class="panel panel-info">
+      <div class="panel-heading">Name:
+      </div>
+      <div class="panel-body"><%= @user.first_name %> <%= @user.last_name %>
+      </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">Email:
+      </div>
+      <div class="panel-body"><%= @user.email %>
+      </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading">Password:
+      </div>
+      <div class="panel-body"><%= @user.password %>
+      </div>
+    </div>
+<br>
+<%= link_to users_path, class: "btn btn-large btn-default" do %>
+    <i class="glyphicon glyphicon-arrow-left"></i> Back
+<% end %>
+  </div>
+</div>

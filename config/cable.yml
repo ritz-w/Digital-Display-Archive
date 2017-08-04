@@ -1,0 +1,12 @@
+development:
+  adapter: async
+  #adapter: redis
+  #url: redis://127.0.0.1:6379/0
+
+test:
+  adapter: async
+
+production:
+  adapter: postgresql
+  url: postgres://krcxayfllhasmf:b69999368c234253bd3a33c8ae1590240cb47a425edde7e7655e359bdbaced4f@ec2-23-21-169-238.compute-1.amazonaws.com:5432/db8vst8lm11h0m
+

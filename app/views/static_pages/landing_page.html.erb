@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+    <div class="page-content">
+      <div class="page-header">
+        <h2>Welcome</h2>
+          <p>The Digital Display Archive is a research repository of projects that use digital technology to create new tools and contexts for the display of contemporary art and design. <br><br> Learn about the archive and its function <a href=/static_pages/about#>here.</a></p>
+      </div>
+    <div class="flex-grid">
+      <% @products.each_slice(4) do |products| %>
+        <div class="col-md-6">
+      <% products.each do |product| %>
+          <%= link_to product do %>
+          <div class="image-lineup row">
+          <%=image_tag(product.image_url, :class => "slider2-image") %>
+            <div class="dimmed-overlay">
+              <div class="dimmed-text">
+               <%= product.text %><br><br>
+                <%= product.artist %><br>
+              </div>
+            </div>
+          </div>
+          <% end %> 
+      <% end %>     
+      </div> 
+    <% end %>
+   </div>
+  </div>
+  </body>
+

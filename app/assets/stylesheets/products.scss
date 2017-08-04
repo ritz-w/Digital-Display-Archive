@@ -1,0 +1,134 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//Product List CSS
+.product_list {
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1.2em;
+  width: 90%;
+  height: 50%;
+  table-layout: fixed;
+  font-family: 'Quicksand', sans-serif;
+}
+
+table td.narrowRow, table th.narrowRow {
+  width: 100px;
+}
+
+.product_image_thumbnail {
+  width: 95%;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.maintext {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.resizedColumn {
+  width: 40%;
+}
+
+.imgColumn {
+  width: 30%;
+}
+
+//General List Elements CSS
+
+th {
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 2px solid #000000;
+}
+
+td {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+
+//Form Elements CSS
+
+#datetimepicker {
+  width: 100px;
+}
+
+.dropdown-menu {
+  width: 200px;
+}
+
+.resizedTextBox {
+  width: 70%; 
+  height: 150px;
+  }
+
+.resizedField {
+  width: 90%; 
+  }
+
+textarea.form-control {
+  height: 150px;
+}
+
+.box_following_list {
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.page-header-form {
+  padding: 5px;
+  margin: 3em 0 1em 2em;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+//Product-specific pages CSS
+.create_new_product_form {
+  width: 70%;
+  font-size: 1.2em;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.product_image_show {
+  width: 30%;
+}
+
+
+//for mobile version
+@media (max-width: 768px) {
+  .content-container {
+    margin-left: 0px;
+  }
+  #mobile-content-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.login-alt-links {
+    font-family: 'Dosis';
+}
+
+.notice {
+  font-family: 'Dosis';
+  padding: 10px;
+  width: 50%;
+}
+
+.alert {
+  font-family: 'Dosis';
+  padding: 10px;
+  width: 50%;
+}
