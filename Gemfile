@@ -37,7 +37,6 @@ gem 'bootstrap3-datetimepicker-rails', '~> 4.17.47'
 gem 'devise'
 gem 'cancancan', '~> 1.10'
 gem 'will_paginate', '~> 3.1.0'
-gem 'stripe'
 gem 'rails-controller-testing'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

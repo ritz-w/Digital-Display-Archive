@@ -2,17 +2,17 @@ class CommentsController < ApplicationController
 
 
 def create
-    @product = Product.find_by_id(params[:product_id])
-    @comment = @product.comments.new(comment_params)
+    @project = Project.find_by_id(params[:project_id])
+    @comment = @project.comments.new(comment_params)
     @user = current_user
     @comment.user = current_user
     respond_to do |format|
       if @comment.save
-        format.html { redirect_to @product, notice: 'Review was created successfully.' }
+        format.html { redirect_to @project, notice: 'Review was created successfully.' }
         format.js {}
-        format.json { render :show, status: :created, location: @product}
+        format.json { render :show, status: :created, location: @project}
       else
-        format.html { redirect_to @product, alert: 'Review was not saved successfully.' }
+        format.html { redirect_to @project, alert: 'Review was not saved successfully.' }
         format.js {}
         format.json { render json: @comment.errors, status: :unprocessable_entity }
       end
@@ -21,9 +21,9 @@ def create
 
 def destroy
   @comment = Comment.find(params[:id])
-  product = @comment.product
+  project = @comment.project
   @comment.destroy
-  redirect_to product
+  redirect_to project
 end
 
 end

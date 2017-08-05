@@ -6,13 +6,13 @@
 
 <div class="container">
   <div class="row vertical-divider">
-  <% @products.each_with_index do |product1, i| %>
+  <% @Projects.each_with_index do |project1, i| %>
     <div class="col-md-6 timeline-column"> <!-- left content div-->
-      <nav class="hover-effect cl-effect-16" id="<%= cycle("timeline-year-left", "timeline-year-right", :name => "first_cycler") -%>"><%= link_to product1.year_made.strftime("%Y"), product1, :class => "click-into-show-link", :data=>{"hover" => product1.year_made.strftime("%Y")} %>
+      <nav class="hover-effect cl-effect-16" id="<%= cycle("timeline-year-left", "timeline-year-right", :name => "first_cycler") -%>"><%= link_to project1.year_made.strftime("%Y"), project1, :class => "click-into-show-link", :data=>{"hover" => project1.year_made.strftime("%Y")} %>
       </nav>
       <p class="<%= cycle("timeline-title-left", "timeline-title-right", :name => "second_cycler") -%>" >
-      <%= product1.artist %><br>
-      <%= product1.name %><br>
+      <%= project1.author %><br>
+      <%= project1.title %><br>
       </p>
     </div> <!-- end left content div-->
 

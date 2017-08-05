@@ -1,6 +1,6 @@
 FactoryGirl.define do
 
-  factory :product1, class: Product do
+  factory :project1, class: Project do
     id "1"
     name "generic painting"
     price "200"
@@ -9,7 +9,7 @@ FactoryGirl.define do
   factory :comment, class: Comment do
     rating 3
     user
-    association :product_id, factory: :product1
+    association :project_id, factory: :project1
     body "Not original at all!"
   end
   

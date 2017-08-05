@@ -4,15 +4,15 @@ class StaticPagesController < ApplicationController
   end
 
   def landing_page
-    @products = Product.all
+    @Projects = Project.all
   end
 
   def index_by_date
-    @products = Product.order('year_made DESC')
+    @Projects = Project.order('year_made DESC')
   end
 
   def index_by_artist
-    @products = Product.order(:artist)
+    @Projects = Project.order(:author)
   end
 
   def thank_you

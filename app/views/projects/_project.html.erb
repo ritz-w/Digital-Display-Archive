@@ -1,0 +1,37 @@
+<% cache project do %>
+  <% @projects.each do |project| %>
+    <div>
+      <div class="flex-container">
+        <div class = "flex-item-image">
+          <%= image_tag(project.img2_url, :class =>"product_image_thumbnail") %>
+          <br>
+          <nav class="hover-effect cl-effect-16 click-into-show-link">
+          <%= link_to 'Edit', edit_project_path(project), :class => "click-into-show-link", :data=>{"hover" => 'Edit'} %> 
+          <br>
+          <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?'}, :class => "click-into-show-link", :data=>{"hover" => 'Destroy'} %>
+          </nav>   
+        </div>
+        <!-- /.flex-item-->
+        <div class = "flex-item-text">
+          <div class = "title-text">
+            <%= project.title %><br>
+            <%= project.author %><br>
+            <% if project.year_made.present? %>
+              <%= project.year_made.strftime("%Y") %>
+            <% end %>
+          </div>
+            <br>
+          <div>
+            <div class="index-desc-text"> <%= project.description %>
+          </div> 
+          </div>
+          <div>
+            <nav class="hover-effect cl-effect-16 click-into-show-link">
+          <%= link_to '[Click to Read More]', project, :class => "click-into-show-link", :data=>{"hover" => '[Click to Read More]'} %> 
+          </nav>
+        </div>
+        <!-- /.flex-item--></div>
+      <!--/.flex-container--></div>
+    </div>
+  <% end %>
+<% end %>

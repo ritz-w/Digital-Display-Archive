@@ -1,15 +1,15 @@
 <div class="page-header">
-  <h2>Sort by Artist</h2>
-    <p>Hover over the artists' names to see their bios, click on the names to see the product page.</p>
+  <h2>Sort by Research Group</h2>
+    <p>Hover over the authors' names to see their bios, click on the names to see the project page.</p>
 </div>
 <div class="artist-name-container">
-<% @products.each do |product| %>
+<% @Projects.each do |project| %>
   <div class="row artist-name-rows">
    <div class="content">
     <nav class="hover-effect cl-effect-16">
-      <%= link_to product.artist, product, :id=>"artist-name", :data=>{"hover" => product.artist} %>
+      <%= link_to project.author, project, :id=>"artist-name", :data=>{"hover" => project.author} %>
     </nav>
-      <p id="bio"><%= product.bio %></p>
+      <p id="bio"><%= project.bio %></p>
   </div>
   </div>
 <% end %>

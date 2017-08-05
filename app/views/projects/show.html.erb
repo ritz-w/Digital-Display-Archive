@@ -1,0 +1,43 @@
+<div class="show-title-text" >
+  <%= @project.author %><br>
+  <%= @project.title %><br>
+  <% if @project.year_made.present? %>
+   <%= @project.year_made.strftime("%Y") %><br>
+    <span class="badge">
+      Viewed <%= @project.viewed! %> times
+    </span>
+  <% end %>
+</div>
+
+<div class="show-container">
+  <div class="show-container-text">
+  <button class="btn btn-default"><%= link_to 'Click to open Project Website', @project.website, target: "_blank" %> </button>
+
+  <h3><u>Project Collaborators</u></h3>
+    <i><%= @project.collaborators %></i>
+  <h3><u>Project Overview</u></h3>
+    <%= @project.description %>
+      <h3><u>Project Analysis</u></h3>
+    <%= @project.analysis %>
+  </div>
+  
+  <div> 
+  <%= image_tag(@project.image_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.image_url') %><br>
+  <%= image_tag(@project.img2_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img2_url') %>
+  <%= image_tag(@project.img3_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img3_url') %><br>
+  <%= image_tag(@project.img4_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img4_url') %>
+  </div>
+
+</div>
+<div class = "box_following_list">
+  <button class="btn btn-default"><%= link_to 'Edit', edit_project_path(@project) %> </button> |
+  <button class="btn btn-default"><%= link_to 'Back', projects_path, method: :get %></button>
+</div>
+
+<div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
+<div class="comments-box" data-project-id="<%= @project.id %>">
+  <%= render 'new_comment', project: @project.id %>
+  <%= render 'comments' %>
+</div>
+
+

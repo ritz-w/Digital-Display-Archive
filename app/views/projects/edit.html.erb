@@ -1,0 +1,8 @@
+<h2 class="page-header-form">Editing Project</h2>
+
+<%= render 'form', project: @project %>
+
+<div class = "box_following_list">
+  <button class="btn btn-default"><%= link_to 'Show', @project %> </button> |
+  <button class="btn btn-default"><%= link_to 'Back', projects_path, method: :get%></button>
+</div>

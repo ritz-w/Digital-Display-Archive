@@ -7,19 +7,20 @@
     <div class="page-content">
       <div class="page-header">
         <h2>Welcome</h2>
-          <p>The Digital Display Archive is a research repository of projects that use digital technology to create new tools and contexts for the display of contemporary art and design. <br><br> Learn about the archive and its function <a href=/static_pages/about#>here.</a></p>
+          <p>The Digital Display Archive is a research repository of projects that use digital technology to create new tools and contexts for the display of contemporary art and design. Including projects and initiatives by artists, arts institutions, curators, and the tech industry, it attempts to form an introduction and abridged history to recent experiments and innovation in this field. <br><br>Learn more about the research behind the archive <a href=/static_pages/about#>here.</a></p>
       </div>
     <div class="flex-grid">
-      <% @products.each_slice(4) do |products| %>
+      <% @Projects.each_slice(4) do |projects| %>
         <div class="col-md-6">
-      <% products.each do |product| %>
-          <%= link_to product do %>
+      <% projects.each do |project| %>
+          <%= link_to project do %>
           <div class="image-lineup row">
-          <%=image_tag(product.image_url, :class => "slider2-image") %>
+          <%=image_tag(project.image_url, :class => "slider2-image") %>
             <div class="dimmed-overlay">
               <div class="dimmed-text">
-               <%= product.text %><br><br>
-                <%= product.artist %><br>
+               <%= project.title %><br>
+               <%= project.year_made.year %><br><br>
+                <%= project.author %><br>
               </div>
             </div>
           </div>

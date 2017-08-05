@@ -4,7 +4,7 @@ Rails.application.routes.draw do
  
   post 'payments/create' => 'payments#create'
 
-  resources :products do
+  resources :projects do
     resources :comments
     collection do
       get :index

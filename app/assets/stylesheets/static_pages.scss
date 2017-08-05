@@ -119,16 +119,15 @@
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
-  margin-left: 3%;
 }
 
 .show-container > div {
-  width: 50%;
-  padding: 10px;
+  width: 100%;
+  margin-left: 3%;
 }
 .show-container > div > img {
-  width: 80%;
-  padding: 10px;
+  width: 100%;
+  padding: 0% 5% 15% 5%;
 }
 
 .show-title-text {
@@ -323,12 +322,12 @@ hr.dots {
 }
 .flex-grid {
   display: flex;
-  margin-left: 15%;
+  margin: 5%;
 }
 
 @media (min-width: 992px) {
   .col-md-6 {
-  width: 40%;
+  width: 50%;
 }
 }
 

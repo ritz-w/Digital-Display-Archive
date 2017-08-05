@@ -10,40 +10,36 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170803081935) do
+ActiveRecord::Schema.define(version: 20170805053241) do
 
   create_table "comments", force: :cascade do |t|
     t.integer  "user_id"
     t.text     "body"
     t.integer  "rating"
-    t.integer  "product_id"
+    t.integer  "project_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["product_id"], name: "index_comments_on_product_id"
+    t.index ["project_id"], name: "index_comments_on_project_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
-  create_table "orders", force: :cascade do |t|
-    t.integer  "user_id"
-    t.integer  "product_id"
-    t.float    "total"
-    t.datetime "created_at"
-    t.index ["product_id"], name: "index_orders_on_product_id"
-    t.index ["user_id"], name: "index_orders_on_user_id"
-  end
-
-  create_table "products", force: :cascade do |t|
-    t.string   "name"
-    t.string   "artist"
+  create_table "projects", force: :cascade do |t|
+    t.string   "title"
+    t.string   "author"
     t.string   "description"
-    t.string   "text"
+    t.string   "website"
     t.string   "image_url"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
     t.string   "img2_url"
     t.text     "bio"
     t.date     "year_made"
     t.integer  "price"
+    t.text     "analysis"
+    t.date     "date_ended"
+    t.text     "collaborators"
+    t.string   "img3_url"
+    t.string   "img4_url"
   end
 
   create_table "users", force: :cascade do |t|
