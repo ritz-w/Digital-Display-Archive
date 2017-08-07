@@ -44,6 +44,9 @@ gem 'rails-controller-testing'
 gem 'dalli'
 gem 'redis-rails'
 gem 'newrelic_rpm'
+gem 'rack'
+gem 'taps'
+
 
 group :production do
   gem 'pg'

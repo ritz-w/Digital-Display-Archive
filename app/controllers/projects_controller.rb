@@ -73,7 +73,7 @@ class ProjectsController < ApplicationController
     end
   end
 def create
-    @project = project.find_by_id(params[:id])
+    @project = Project.find_by_id(params[:id])
     @comment = @project.comments.new(comment_params)
     @comment.user = current_user
     respond_to do |format|

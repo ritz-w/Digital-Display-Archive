@@ -1,0 +1,20 @@
+D, [2017-08-07T22:48:01.261123 #54061] DEBUG -- :   [1m[35m (30.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying PRIMARY KEY)[0m
+D, [2017-08-07T22:48:01.262609 #54061] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+D, [2017-08-07T22:48:01.264316 #54061] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+D, [2017-08-07T22:48:01.274704 #54061] DEBUG -- :   [1m[35m (5.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-07T22:48:01.325981 #54061] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (4.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-07T22:48:01.337604 #54061] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-07T22:48:01.347535 #54061] DEBUG -- :   [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "production"], ["created_at", 2017-08-07 13:48:01 UTC], ["updated_at", 2017-08-07 13:48:01 UTC]]
+D, [2017-08-07T22:48:01.348523 #54061] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-07T22:48:01.351402 #54061] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-07T22:48:01.353873 #54061] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-07T22:48:01.354966 #54061] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-07T22:48:24.907794 #54067] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-07T22:48:24.922645 #54067] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-07T22:48:24.946231 #54067] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT version FROM "schema_migrations"[0m
+D, [2017-08-07T22:48:24.964878 #54067] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-07T22:48:24.975220 #54067] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-07T22:48:24.977450 #54067] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-07T22:48:24.981150 #54067] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-07T22:48:24.981692 #54067] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-07T22:48:24.983246 #54067] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
