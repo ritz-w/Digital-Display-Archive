@@ -15,6 +15,10 @@ class StaticPagesController < ApplicationController
     @Projects = Project.order(:author)
   end
 
+  def events
+    @Events = Event.all
+  end
+
   def thank_you
     @name = params[:name]
     @email = params[:email]

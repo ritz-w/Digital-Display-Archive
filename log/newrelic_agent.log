@@ -2014,3 +2014,44 @@
 [2017-08-06 02:19:24 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.025469 seconds: getaddrinfo: nodename nor servname provided, or not known
 [2017-08-06 02:19:25 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
 [2017-08-06 02:19:25 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.304184 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-06 10:54:34 +0900 Ritzs-MacBook.local (44016)] INFO : Starting Agent shutdown
+[2017-08-06 11:04:00 +0900 Ritzs-MacBook.local (44263)] INFO : Starting Agent shutdown
+[2017-08-06 11:11:57 +0900 Ritzs-MacBook.local (44334)] INFO : Starting Agent shutdown
+[2017-08-06 11:12:24 +0900 Ritzs-MacBook.local (44340)] INFO : Starting Agent shutdown
+[2017-08-06 11:14:18 +0900 Ritzs-MacBook.local (44346)] INFO : Starting Agent shutdown
+[2017-08-06 11:14:33 +0900 Ritzs-MacBook.local (44352)] INFO : Starting Agent shutdown
+[2017-08-07 07:12:08 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 07:12:08 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010712 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 07:12:08 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 07:12:08 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.016914 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.006361 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003337 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002749 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 07:12:40 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004111 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.016144 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00476 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.026801 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 11:07:58 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.015394 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010662 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.013413 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.006597 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 11:08:58 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.012915 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 13:22:33 +0900 Ritzs-MacBook.local (42840)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 13:22:33 +0900 Ritzs-MacBook.local (42840)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.017487 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 13:22:36 +0900 Ritzs-MacBook.local (42639)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-07 13:22:36 +0900 Ritzs-MacBook.local (42639)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.169585 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-07 14:00:08 +0900 Ritzs-MacBook.local (45374)] INFO : Starting Agent shutdown
+[2017-08-07 14:00:33 +0900 Ritzs-MacBook.local (45779)] INFO : Starting Agent shutdown
+[2017-08-07 18:05:35 +0900 Ritzs-MacBook.local (45845)] INFO : Starting Agent shutdown

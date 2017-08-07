@@ -94,6 +94,6 @@ def create
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def project_params
-      params.require(:project).permit(:title, :author, :collaborators, :description, :analysis, :website, :image_url, :year_made, :img2_url, :img3_url, :img4_url, :bio)
+      params.require(:project).permit(:title, :author, :collaborators, :description, :analysis, :website, :image_url, :year_made, :date_ended, :img2_url, :img3_url, :img4_url, :bio)
     end
 end

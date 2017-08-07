@@ -1,0 +1,73 @@
+<p id="notice"><%= notice %></p>
+
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+  <div class="page-content">
+    <div class="page-header">
+      <h2>Events</h2>
+        <p> A listing of present and future events series and conferences in the research of digital display.</p>
+    </div>
+    <div class="container events-page-content">
+      <h2>Upcoming</h2>
+      <% @event_upcoming.each do |event| %>
+      <div class="row event-row">
+        <div class="col-md-4">
+          <%= image_tag(event.image_url, :class =>"product_image_thumbnail") %>
+        </div>
+        <div class="col-md-6 events-page-text">
+         <h3 class="hover-effect cl-effect-16">
+          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>          
+          <div class="dropdown">
+            <button class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><%= link_to 'Show', event %></li>
+              <li><%= link_to 'Edit', edit_event_path(event) %></li>
+              <li><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+            </ul>
+          </div>
+        </h3> 
+          <h4><%= event.host %> </h4>
+          <h4> <%= event.location %> </h4>
+          <h4>From <%= event.date_began.to_date %> to <%= event.date_ended.to_date %> </h4>
+          <p><%= event.description %></p>
+        </div>
+      </div>
+      <% end %>
+      <hr>
+      <h2>Past</h2>
+      <% @event_past.each do |event| %>
+      <div class="row event-row">
+        <div class="col-md-4">
+          <%= image_tag(event.image_url, :class =>"product_image_thumbnail") %>
+        </div>
+        <div class="col-md-6 events-page-text">
+         <h3 class="hover-effect cl-effect-16">
+          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>                
+          <div class="dropdown">
+            <button class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><%= link_to 'Show', event %></li>
+              <li><%= link_to 'Edit', edit_event_path(event) %></li>
+              <li><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+            </ul>
+          </div>
+        </h3> 
+          <h4><%= event.host %> </h4>
+          <h4> <%= event.location %> </h4>
+          <h4>From <%= event.date_began.to_date %> to <%= event.date_ended.to_date %> </h4>
+          <p><%= event.description %></p>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+  <div class = "box_following_list">
+  <button class="btn btn-default"><%= link_to 'Create New Event', new_event_path %></button>
+  </div>
+</body>
+

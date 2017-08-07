@@ -99,6 +99,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .container {
+      width: 970px;
+  }
+}
+
 
 //index by artist page
 .click-into-show-link {
@@ -119,6 +125,7 @@
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
+  width: 90%;
 }
 
 .show-container > div {
@@ -843,6 +850,55 @@ footer {
   .flex-item-image {
   width: 100%;
   }
+}
+
+.events-page-content {
+  background-size: 100% 100%;
+  width: 90%;
+  padding: 3%;
+  margin-left: 10%;
+}
+
+.event-row {
+  padding-top: 3%;
+}
+
+.events-page-content h2 {
+  padding: 5px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.events-page-text {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.events-page-text h3 {
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 1.4em;
+}
+
+.events-page-text a {
+  font-size: 1em;
+  background-color: yellow;
+}
+
+.events-page-text h4 {
+  font-size: 1.2em;
+}
+
+.events-page-text p {
+  font-size: 1.1em;
+  margin: 0px;
+}
+.dropdown {
+  display: inline;
+  float: right;
 }
 
 //for desktop version

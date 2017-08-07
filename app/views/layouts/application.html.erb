@@ -17,7 +17,7 @@
             <div class="navbar-header">
               <div class="mobile-site-title">
                 <%= image_tag("cart.png", class: "img-responsive mobile-icon") %>
-                <p>Digital Exhibitions Research Repository</p>
+                <p>Digital Display Archive</p>
                 </div>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
@@ -38,6 +38,7 @@
                   </ul>
                 </li>
                 <li role="separator" class="divider"></li>
+                <li> <%= link_to "Events History", events_path %></li>
                 <li><%= link_to "References & Acknowledgments", static_pages_references_path %></li>
                 <li role="separator" class="divider"></li>
                 <li> <%= link_to "Contact", static_pages_contact_path %></li>

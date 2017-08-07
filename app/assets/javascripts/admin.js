@@ -49,10 +49,12 @@ $(document).ready(function(){
   })
 // Bootstrap DateTimePicker v4
   $(function() {             
-   $('#datetimepicker').datetimepicker({
+   $('.datetimepicker').datetimepicker({
         format: 'YYYY-MM-DD',
     });
   });
+
+
 //Sort by Artist Name expand bio effect    
   $(".artist-name-rows").each(function() {
   var t,
