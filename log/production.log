@@ -18,3 +18,181 @@ D, [2017-08-07T22:48:24.977450 #54067] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m
 D, [2017-08-07T22:48:24.981150 #54067] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
 D, [2017-08-07T22:48:24.981692 #54067] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
 D, [2017-08-07T22:48:24.983246 #54067] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T09:49:43.534722 #57508] DEBUG -- :   [1m[35m (1.9ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:49:43.562227 #57508] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (5.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:49:43.586958 #57508]  INFO -- : Migrating to CreateProducts (20170312121251)
+D, [2017-08-08T09:49:43.595581 #57508] DEBUG -- :   [1m[35m (5.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.629068 #57508] DEBUG -- :   [1m[35m (31.1ms)[0m  [1m[35mCREATE TABLE "products" ("id" serial primary key, "name" character varying, "string" character varying, "description" character varying, "text" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T09:49:43.640571 #57508] DEBUG -- :   [1m[35mSQL (5.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170312121251"]]
+D, [2017-08-08T09:49:43.642741 #57508] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.642880 #57508]  INFO -- : Migrating to MigrationName (20170312164022)
+D, [2017-08-08T09:49:43.644410 #57508] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.646028 #57508] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170312164022"]]
+D, [2017-08-08T09:49:43.649281 #57508] DEBUG -- :   [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.649414 #57508]  INFO -- : Migrating to AddYear (20170312164119)
+D, [2017-08-08T09:49:43.650622 #57508] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.657105 #57508] DEBUG -- :   [1m[35m (5.8ms)[0m  [1m[35mALTER TABLE "products" ADD "year" character varying[0m
+D, [2017-08-08T09:49:43.659023 #57508] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170312164119"]]
+D, [2017-08-08T09:49:43.660217 #57508] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.660324 #57508]  INFO -- : Migrating to RenameYearInProducts (20170312170056)
+D, [2017-08-08T09:49:43.661484 #57508] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.662279 #57508] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year" TO "year_made"[0m
+D, [2017-08-08T09:49:43.675148 #57508] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170312170056"]]
+D, [2017-08-08T09:49:43.675977 #57508] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.676066 #57508]  INFO -- : Migrating to RenameStringInProducts (20170313045522)
+D, [2017-08-08T09:49:43.677342 #57508] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.678228 #57508] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "string" TO "artist"[0m
+D, [2017-08-08T09:49:43.681517 #57508] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170313045522"]]
+D, [2017-08-08T09:49:43.682303 #57508] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.682397 #57508]  INFO -- : Migrating to AddSecondImageToProducts (20170317053854)
+D, [2017-08-08T09:49:43.683534 #57508] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.684283 #57508] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "products" ADD "img2_url" character varying[0m
+D, [2017-08-08T09:49:43.685627 #57508] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170317053854"]]
+D, [2017-08-08T09:49:43.689114 #57508] DEBUG -- :   [1m[35m (3.2ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.689227 #57508]  INFO -- : Migrating to AddBioToProducts (20170324173021)
+D, [2017-08-08T09:49:43.690320 #57508] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.691319 #57508] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "products" ADD "bio" text[0m
+D, [2017-08-08T09:49:43.692666 #57508] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170324173021"]]
+D, [2017-08-08T09:49:43.695267 #57508] DEBUG -- :   [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:49:43.695394 #57508]  INFO -- : Migrating to ChangeYearInProducts (20170324173036)
+D, [2017-08-08T09:49:43.697113 #57508] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:49:43.698015 #57508] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year_made" TO "year_made_string"[0m
+D, [2017-08-08T09:49:43.700227 #57508] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "products" ADD "year_made" date[0m
+D, [2017-08-08T09:49:43.701780 #57508] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:49:43.702553 #57508] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:50:33.105075 #57521] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:50:33.121872 #57521] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:50:33.131941 #57521]  INFO -- : Migrating to ChangeYearInProducts (20170324173036)
+D, [2017-08-08T09:50:33.135026 #57521] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:50:33.136041 #57521] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year_made" TO "year_made_string"[0m
+D, [2017-08-08T09:50:33.139896 #57521] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "products" ADD "year_made" date[0m
+D, [2017-08-08T09:50:33.141973 #57521] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:50:33.142574 #57521] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:50:59.554152 #57528] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:50:59.568569 #57528] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:50:59.578894 #57528]  INFO -- : Migrating to ChangeYearInProducts (20170324173036)
+D, [2017-08-08T09:50:59.581250 #57528] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:50:59.582363 #57528] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year_made" TO "year_made_string"[0m
+D, [2017-08-08T09:50:59.586069 #57528] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "products" ADD "year_made" date[0m
+D, [2017-08-08T09:50:59.587671 #57528] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:50:59.588344 #57528] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:55:07.621405 #57657] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:55:07.636969 #57657] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:55:07.648326 #57657]  INFO -- : Migrating to ChangeYearInProducts (20170324173036)
+D, [2017-08-08T09:55:07.650972 #57657] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:55:07.652030 #57657] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year_made" TO "year_made_string"[0m
+D, [2017-08-08T09:55:07.656705 #57657] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "products" ADD "year_made" date[0m
+D, [2017-08-08T09:55:07.658965 #57657] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:55:07.659650 #57657] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:56:07.972034 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:56:07.987205 #57670] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:56:07.997045 #57670]  INFO -- : Migrating to CreateUsers (20170420044033)
+D, [2017-08-08T09:56:08.000200 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.008879 #57670] DEBUG -- :   [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" serial primary key, "first_name" character varying, "last_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T09:56:08.013965 #57670] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170420044033"]]
+D, [2017-08-08T09:56:08.015270 #57670] DEBUG -- :   [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:56:08.015405 #57670]  INFO -- : Migrating to AddDeviseToUsers (20170420044703)
+D, [2017-08-08T09:56:08.016623 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.029344 #57670] DEBUG -- :   [1m[35m (11.4ms)[0m  [1m[35mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+D, [2017-08-08T09:56:08.034164 #57670] DEBUG -- :   [1m[35m (4.0ms)[0m  [1m[35mALTER TABLE "users" ADD "encrypted_password" character varying DEFAULT '' NOT NULL[0m
+D, [2017-08-08T09:56:08.035020 #57670] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+D, [2017-08-08T09:56:08.035631 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+D, [2017-08-08T09:56:08.036201 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+D, [2017-08-08T09:56:08.042858 #57670] DEBUG -- :   [1m[35m (5.9ms)[0m  [1m[35mALTER TABLE "users" ADD "sign_in_count" integer DEFAULT 0 NOT NULL[0m
+D, [2017-08-08T09:56:08.043506 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "users" ADD "current_sign_in_at" timestamp[0m
+D, [2017-08-08T09:56:08.044169 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "last_sign_in_at" timestamp[0m
+D, [2017-08-08T09:56:08.044788 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "current_sign_in_ip" character varying[0m
+D, [2017-08-08T09:56:08.045418 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "users" ADD "last_sign_in_ip" character varying[0m
+D, [2017-08-08T09:56:08.049668 #57670] DEBUG -- :   [1m[35m (1.5ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+D, [2017-08-08T09:56:08.053427 #57670] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+D, [2017-08-08T09:56:08.054936 #57670] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170420044703"]]
+D, [2017-08-08T09:56:08.056984 #57670] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:56:08.057105 #57670]  INFO -- : Migrating to CreateComments (20170430132234)
+D, [2017-08-08T09:56:08.058539 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.074088 #57670] DEBUG -- :   [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "comments" ("id" serial primary key, "user_id" integer, "body" text, "rating" integer, "product_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_03de2dc08c"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+, CONSTRAINT "fk_rails_a0d280f6e4"
+FOREIGN KEY ("product_id")
+  REFERENCES "products" ("id")
+)[0m
+D, [2017-08-08T09:56:08.078103 #57670] DEBUG -- :   [1m[35m (1.2ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_user_id" ON "comments"  ("user_id")[0m
+D, [2017-08-08T09:56:08.081675 #57670] DEBUG -- :   [1m[35m (1.1ms)[0m  [1m[35mCREATE  INDEX  "index_comments_on_product_id" ON "comments"  ("product_id")[0m
+D, [2017-08-08T09:56:08.084049 #57670] DEBUG -- :   [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170430132234"]]
+D, [2017-08-08T09:56:08.084948 #57670] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:56:08.085049 #57670]  INFO -- : Migrating to AddAdminFlagToUsers (20170504174958)
+D, [2017-08-08T09:56:08.086454 #57670] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.096146 #57670] DEBUG -- :   [1m[35m (7.9ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT 'f' NOT NULL[0m
+D, [2017-08-08T09:56:08.097637 #57670] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170504174958"]]
+D, [2017-08-08T09:56:08.099552 #57670] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:56:08.099670 #57670]  INFO -- : Migrating to AddPriceToProducts (20170515080410)
+D, [2017-08-08T09:56:08.100903 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.102021 #57670] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "products" ADD "price" integer[0m
+D, [2017-08-08T09:56:08.103736 #57670] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170515080410"]]
+D, [2017-08-08T09:56:08.105382 #57670] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:56:08.105484 #57670]  INFO -- : Migrating to AddTimestampToOrders (20170803081935)
+D, [2017-08-08T09:56:08.115409 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:56:08.116617 #57670] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "orders" ADD "created_at" timestamp[0m
+D, [2017-08-08T09:56:08.117094 #57670] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:56:08.117780 #57670] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:57:18.119734 #57688] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:57:18.137379 #57688] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:57:18.148318 #57688]  INFO -- : Migrating to AddTimestampToOrders (20170803081935)
+D, [2017-08-08T09:57:18.150698 #57688] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:57:18.151996 #57688] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "orders" ADD "created_at" timestamp[0m
+D, [2017-08-08T09:57:18.152438 #57688] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:57:18.153197 #57688] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:58:09.049205 #57699] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:58:09.063909 #57699] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:58:09.075134 #57699]  INFO -- : Migrating to RenameProductstoProjects (20170804075852)
+D, [2017-08-08T09:58:09.080376 #57699] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:09.081508 #57699] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "products" RENAME TO "projects"[0m
+D, [2017-08-08T09:58:09.087118 #57699] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "public"."products_id_seq" RENAME TO "projects_id_seq"[0m
+D, [2017-08-08T09:58:09.087770 #57699] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER INDEX "products_pkey" RENAME TO "projects_pkey"[0m
+D, [2017-08-08T09:58:09.091315 #57699] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "projects" RENAME COLUMN "artist" TO "author"[0m
+D, [2017-08-08T09:58:09.093533 #57699] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "projects" RENAME COLUMN "name" TO "title"[0m
+D, [2017-08-08T09:58:09.096684 #57699] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "projects" RENAME COLUMN "text" TO "tagline"[0m
+D, [2017-08-08T09:58:09.104039 #57699] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170804075852"]]
+D, [2017-08-08T09:58:09.104963 #57699] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:58:09.105149 #57699]  INFO -- : Migrating to DropOrders (20170804080907)
+D, [2017-08-08T09:58:09.106414 #57699] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:09.107264 #57699] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "orders"[0m
+D, [2017-08-08T09:58:09.107668 #57699] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T09:58:09.108183 #57699] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T09:58:37.596361 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T09:58:37.611149 #57719] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T09:58:37.622176 #57719]  INFO -- : Migrating to ChangeColumnNamesinComments (20170804085915)
+D, [2017-08-08T09:58:37.628105 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.629296 #57719] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "comments" RENAME COLUMN "product_id" TO "project_id"[0m
+D, [2017-08-08T09:58:37.636538 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER INDEX "index_comments_on_product_id" RENAME TO "index_comments_on_project_id"[0m
+D, [2017-08-08T09:58:37.641947 #57719] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170804085915"]]
+D, [2017-08-08T09:58:37.643160 #57719] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:58:37.643307 #57719]  INFO -- : Migrating to Add (20170805044308)
+D, [2017-08-08T09:58:37.644584 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.645421 #57719] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "projects" RENAME COLUMN "tagline" TO "website"[0m
+D, [2017-08-08T09:58:37.648084 #57719] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "projects" ADD "analysis" text[0m
+D, [2017-08-08T09:58:37.648958 #57719] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "projects" ADD "date_ended" date[0m
+D, [2017-08-08T09:58:37.650466 #57719] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170805044308"]]
+D, [2017-08-08T09:58:37.651531 #57719] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:58:37.651645 #57719]  INFO -- : Migrating to AddColumnsToProjects (20170805053241)
+D, [2017-08-08T09:58:37.652829 #57719] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.653728 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "projects" ADD "collaborators" text[0m
+D, [2017-08-08T09:58:37.654350 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "projects" ADD "img3_url" character varying[0m
+D, [2017-08-08T09:58:37.654910 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "projects" ADD "img4_url" character varying[0m
+D, [2017-08-08T09:58:37.663543 #57719] DEBUG -- :   [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170805053241"]]
+D, [2017-08-08T09:58:37.664521 #57719] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:58:37.664614 #57719]  INFO -- : Migrating to CreateEvents (20170806020359)
+D, [2017-08-08T09:58:37.665951 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.676208 #57719] DEBUG -- :   [1m[35m (7.0ms)[0m  [1m[35mCREATE TABLE "events" ("id" serial primary key, "name" character varying, "host" character varying, "location" character varying, "date_began" date, "date_ended" date, "description" character varying, "image_url" character varying, "recurring" boolean, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T09:58:37.677847 #57719] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170806020359"]]
+D, [2017-08-08T09:58:37.678776 #57719] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T09:58:37.678985 #57719]  INFO -- : Migrating to AddWebsiteToEvents (20170807050033)
+D, [2017-08-08T09:58:37.680591 #57719] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.681690 #57719] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "events" ADD "website" character varying[0m
+D, [2017-08-08T09:58:37.682398 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "events" ALTER COLUMN "description" TYPE text[0m
+D, [2017-08-08T09:58:37.684315 #57719] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170807050033"]]
+D, [2017-08-08T09:58:37.684969 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T09:58:37.692421 #57719] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (2.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T09:58:37.700563 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T09:58:37.702117 #57719] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T09:58:37.702695 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m

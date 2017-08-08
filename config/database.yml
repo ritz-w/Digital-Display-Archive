@@ -1,24 +1,32 @@
 development:
   adapter: postgresql
   database: ddadb
+  encoding: unicode
   pool: 5
   timeout: 5000
   host: localhost
+  username: ritz
+  password: stupid
 
 test:
   adapter: postgresql
   database: ddadb_test
+  encoding: unicode
   pool: 5
   timeout: 5000
   host: localhost
+  username: ritz
+  password: stupid
 
 production:
   adapter: postgresql
   database: ddadb_prod
+  encoding: unicode
   pool: 5
   timeout: 5000
   host: localhost
-
+  username: ritz
+  password: stupid
 
 
   # # SQLite version 3.x
