@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-  resources :refs
-  resources :references
   devise_for :users, :path => '', :path_names => {:sign_in => 'login', :sign_out => 'logout'}, :controllers => { :registrations => "user_registrations" }
-  resources :users
  
   post 'payments/create' => 'payments#create'
 
@@ -16,8 +13,12 @@ Rails.application.routes.draw do
   resources :events do
   end
 
-  resources :references do
+  resources :refs do
   end
+
+  resources :users do
+  end
+
 
 
   get 'static_pages/about'
@@ -29,9 +30,7 @@ Rails.application.routes.draw do
   get 'static_pages/index_by_date'
 
   get 'static_pages/index_by_artist'
-
-  get 'static_pages/references'
-
+  
   get 'static_pages/landing_page'
   
   get 'static_pages/events'
