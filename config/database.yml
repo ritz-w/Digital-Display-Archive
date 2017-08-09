@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: ddadb
+  database: ddadb_development
   encoding: unicode
   pool: 5
   timeout: 5000
@@ -10,7 +10,7 @@ development:
 
 test:
   adapter: postgresql
-  database: ddadb_test
+  database: ddadb_testing
   encoding: unicode
   pool: 5
   timeout: 5000
@@ -20,7 +20,7 @@ test:
 
 production:
   adapter: postgresql
-  database: ddadb_prod
+  database: ddadb_production
   encoding: unicode
   pool: 5
   timeout: 5000

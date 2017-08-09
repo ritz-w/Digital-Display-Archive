@@ -196,3 +196,130 @@ D, [2017-08-08T09:58:37.692421 #57719] DEBUG -- :   [1m[36mActiveRecord::Inter
 D, [2017-08-08T09:58:37.700563 #57719] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
 D, [2017-08-08T09:58:37.702117 #57719] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
 D, [2017-08-08T09:58:37.702695 #57719] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T13:58:50.877149 #62815] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T13:58:50.892407 #62815] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T13:58:50.913103 #62815] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T13:58:50.917934 #62815] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T13:58:50.919810 #62815] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T13:58:50.920431 #62815] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T13:59:13.194401 #62823] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T13:59:13.210704 #62823] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T13:59:13.231760 #62823] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T13:59:13.237051 #62823] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T13:59:13.238629 #62823] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T13:59:13.239165 #62823] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T13:59:20.110836 #62826] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T13:59:20.126550 #62826] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T13:59:20.147715 #62826] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T13:59:20.152522 #62826] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T13:59:20.154037 #62826] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T13:59:20.154610 #62826] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T13:59:53.591074 #62836] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T13:59:53.611534 #62836] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T13:59:53.634740 #62836] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T13:59:53.641182 #62836] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T13:59:53.642833 #62836] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T13:59:53.643410 #62836] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:01:08.839859 #62851] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:01:48.563602 #62864] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:01:48.582784 #62864] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:01:48.584633 #62864] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:01:48.585493 #62864]  INFO -- : Migrating to AddColumnsToReferences (20170808042457)
+D, [2017-08-08T14:01:48.590097 #62864] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:01:48.600285 #62864] DEBUG -- :   [1m[35m (4.7ms)[0m  [1m[35mALTER TABLE "references" DROP "pdf_url"[0m
+D, [2017-08-08T14:01:48.600906 #62864] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "references" DROP "publisher"[0m
+D, [2017-08-08T14:01:48.601589 #62864] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "references" DROP "format"[0m
+D, [2017-08-08T14:01:48.602420 #62864] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "references" DROP "year_published"[0m
+D, [2017-08-08T14:01:48.603094 #62864] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "references" DROP "title"[0m
+D, [2017-08-08T14:01:48.617292 #62864] DEBUG -- :   [1m[35mSQL (1.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20170808042457"]]
+D, [2017-08-08T14:01:48.620640 #62864] DEBUG -- :   [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:01:48.621397 #62864] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:01:58.465590 #62867] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:01:58.483442 #62867] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:01:58.485148 #62867] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:01:58.485790 #62867]  INFO -- : Migrating to CreateReferences (20170808042300)
+D, [2017-08-08T14:01:58.488722 #62867] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:01:58.494978 #62867] DEBUG -- :   [1m[35m (2.3ms)[0m  [1m[35mDROP TABLE "references"[0m
+D, [2017-08-08T14:01:58.506906 #62867] DEBUG -- :   [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20170808042300"]]
+D, [2017-08-08T14:01:58.510897 #62867] DEBUG -- :   [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:01:58.511722 #62867] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:02:14.985431 #62874] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:02:32.900096 #62879] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:02:42.008465 #62883] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:05:35.088015 #62954] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:05:35.104432 #62954] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:05:35.116432 #62954]  INFO -- : Migrating to AddWebsiteToEvents (20170807050033)
+D, [2017-08-08T14:05:35.119570 #62954] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:05:35.127325 #62954] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T14:05:35.128245 #62954] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:06:22.946969 #62983] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:06:22.962620 #62983] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:06:22.976220 #62983] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:06:43.234878 #63004] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:06:43.251162 #63004] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:06:43.264876 #63004] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:06:53.084740 #63025] DEBUG -- :   [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:16:28.557484 #63165] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:21:44.056481 #63242] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:21:44.078466 #63242] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:21:44.093301 #63242]  INFO -- : Migrating to ChangeYearInProducts (20170324173036)
+D, [2017-08-08T14:21:44.096420 #63242] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:21:44.097668 #63242] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "products" RENAME COLUMN "year_made" TO "year_made_string"[0m
+D, [2017-08-08T14:21:44.102483 #63242] DEBUG -- :   [1m[35m (4.5ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T14:21:44.103459 #63242] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:22:45.790429 #63256] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:22:45.810823 #63256] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:22:45.823296 #63256]  INFO -- : Migrating to CreateReadings (20170808035855)
+D, [2017-08-08T14:22:45.826636 #63256] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:22:45.837614 #63256] DEBUG -- :   [1m[35m (8.9ms)[0m  [1m[35mCREATE TABLE "readings" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T14:22:45.838232 #63256] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T14:22:45.838889 #63256] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:23:08.685505 #63263] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:23:08.706455 #63263] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:23:08.719449 #63263]  INFO -- : Migrating to CreateReadings (20170808035855)
+D, [2017-08-08T14:23:08.722555 #63263] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:23:08.728882 #63263] DEBUG -- :   [1m[35m (4.9ms)[0m  [1m[35mCREATE TABLE "readings" ("id" serial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T14:23:08.729284 #63263] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+D, [2017-08-08T14:23:08.729939 #63263] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:23:28.740122 #63269] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:23:28.759631 #63269] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2017-08-08T14:23:28.774199 #63269]  INFO -- : Migrating to CreateReferences (20170808042300)
+D, [2017-08-08T14:23:28.777501 #63269] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:23:28.790065 #63269] DEBUG -- :   [1m[35m (11.1ms)[0m  [1m[35mCREATE TABLE "references" ("id" serial primary key, "first_name" character varying, "last_name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+D, [2017-08-08T14:23:28.808167 #63269] DEBUG -- :   [1m[35mSQL (10.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170808042300"]]
+D, [2017-08-08T14:23:28.809968 #63269] DEBUG -- :   [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+I, [2017-08-08T14:23:28.810089 #63269]  INFO -- : Migrating to AddColumnsToReferences (20170808042457)
+D, [2017-08-08T14:23:28.812167 #63269] DEBUG -- :   [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:23:28.813338 #63269] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "references" ADD "title" character varying[0m
+D, [2017-08-08T14:23:28.814003 #63269] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "references" ADD "year_published" date[0m
+D, [2017-08-08T14:23:28.814621 #63269] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "references" ADD "format" character varying[0m
+D, [2017-08-08T14:23:28.815287 #63269] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "references" ADD "publisher" character varying[0m
+D, [2017-08-08T14:23:28.816185 #63269] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "references" ADD "pdf_url" character varying[0m
+D, [2017-08-08T14:23:28.817810 #63269] DEBUG -- :   [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20170808042457"]]
+D, [2017-08-08T14:23:28.818517 #63269] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:23:28.824848 #63269] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T14:23:28.839603 #63269] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:23:28.841587 #63269] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:23:28.842468 #63269] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:36:18.295679 #63459] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:40:05.243965 #63525] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:43:14.034173 #63572] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:43:28.616356 #63576] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:43:28.631505 #63576] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:43:28.653014 #63576] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T14:43:28.658181 #63576] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:43:28.659809 #63576] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:43:28.660396 #63576] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:51:41.799268 #63746] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations"[0m
+D, [2017-08-08T14:52:08.669771 #63787] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:52:08.683967 #63787] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:52:08.705303 #63787] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T14:52:08.710202 #63787] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:52:08.711611 #63787] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:52:08.712227 #63787] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m
+D, [2017-08-08T14:52:17.375497 #63791] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1731037651519940715);[0m
+D, [2017-08-08T14:52:17.391263 #63791] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+D, [2017-08-08T14:52:17.412102 #63791] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", :environment], ["LIMIT", 1]]
+D, [2017-08-08T14:52:17.417685 #63791] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+D, [2017-08-08T14:52:17.419210 #63791] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-08-08T14:52:17.419784 #63791] DEBUG -- :   [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(1731037651519940715)[0m

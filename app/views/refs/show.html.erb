@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @ref.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @ref.last_name %>
+</p>
+
+<p>
+  <strong>Year published:</strong>
+  <%= @ref.year_published %>
+</p>
+
+<p>
+  <strong>Publisher:</strong>
+  <%= @ref.publisher %>
+</p>
+
+<p>
+  <strong>Format:</strong>
+  <%= @ref.format %>
+</p>
+
+<p>
+  <strong>Pdf url:</strong>
+  <%= @ref.pdf_url %>
+</p>
+
+<%= link_to 'Edit', edit_ref_path(@ref) %> |
+<%= link_to 'Back', refs_path %>

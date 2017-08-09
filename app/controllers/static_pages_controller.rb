@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
   end
 
   def index_by_date
-    @Projects = Project.order('year_made DESC')
+    @Projects = Project.order('date_began DESC')
   end
 
   def index_by_artist
@@ -24,9 +24,6 @@ class StaticPagesController < ApplicationController
     @email = params[:email]
     @message = params[:message]
     UserMailer.contact_form(@email, @name, @message).deliver_now
-  end
-
-  def references
   end
 
 end

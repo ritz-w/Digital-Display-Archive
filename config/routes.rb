@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :refs
+  resources :references
   devise_for :users, :path => '', :path_names => {:sign_in => 'login', :sign_out => 'logout'}, :controllers => { :registrations => "user_registrations" }
   resources :users
  
@@ -11,7 +13,10 @@ Rails.application.routes.draw do
     end
   end
 
-resources :events do
+  resources :events do
+  end
+
+  resources :references do
   end
 
 

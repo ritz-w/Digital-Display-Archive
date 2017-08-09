@@ -54,8 +54,8 @@ class ProjectsController < ApplicationController
   def update
     respond_to do |format|
       if @project.update(project_params)
-        format.html { redirect_to @project, notice: 'Project was successfully updated.' }
-        format.json { render :show, status: :ok, location: @project }
+        format.html { redirect_to "/static_pages/landing_page", notice: 'Project was successfully updated.' }
+        format.json { render :edit, status: :ok, location: @project }
       else
         format.html { render :edit }
         format.json { render json: @project.errors, status: :unprocessable_entity }
@@ -94,6 +94,6 @@ def create
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def project_params
-      params.require(:project).permit(:title, :author, :collaborators, :description, :analysis, :website, :image_url, :year_made, :date_ended, :img2_url, :img3_url, :img4_url, :bio)
+      params.require(:project).permit(:title, :author, :collaborators, :description, :analysis, :website, :image_url, :year_made, :date_began, :date_ended, :img2_url, :img3_url, :img4_url, :bio)
     end
 end

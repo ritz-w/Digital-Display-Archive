@@ -1,0 +1,47 @@
+<%= form_for(ref) do |f| %>
+  <% if ref.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(ref.errors.count, "error") %> prohibited this ref from being saved:</h2>
+
+      <ul>
+      <% ref.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :year_published %>
+    <%= f.date_select :year_published %>
+  </div>
+
+  <div class="field">
+    <%= f.label :publisher %>
+    <%= f.text_field :publisher %>
+  </div>
+
+  <div class="field">
+    <%= f.label :format %>
+    <%= f.text_field :format %>
+  </div>
+
+  <div class="field">
+    <%= f.label :pdf_url %>
+    <%= f.text_field :pdf_url %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

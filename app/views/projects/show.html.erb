@@ -2,9 +2,9 @@
   <%= @project.author %><br>
   <%= @project.title %><br>
   <% if @project.date_ended.present? %>
-   <%= @project.year_made.to_formatted_s(:long_ordinal) %> - <%= @project.date_ended.to_formatted_s(:long_ordinal) %>
+   <%= @project.date_began.to_formatted_s(:long_ordinal) %> - <%= @project.date_ended.to_formatted_s(:long_ordinal) %>
   <% else %>
-    <%= @project.year_made.to_formatted_s(:long_ordinal) %>
+    <%= @project.date_began.to_formatted_s(:long_ordinal) %>
   <br>
     <span class="badge">
       Viewed <%= @project.viewed! %> times
