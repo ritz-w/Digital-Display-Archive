@@ -133,6 +133,181 @@ textarea.form-control {
   width: 50%;
 }
 
-.btn-default {
+.btn-show {
   border-color: black;
+  width: fit-content;
+  margin: 10% 0%;
 }
+
+.questions-container {
+  width: 85%;
+  margin: 3%;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+
+//show each product page (show.html.erb)
+
+.show-container {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  width: 90%;
+}
+
+.show-container > div {
+  width: 100%;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-container > div > img {
+  width: 100%;
+}
+
+.show-title-text {
+  font-size: 2em;
+  line-height: 1.5em;
+  font-family: 'Quicksand', sans serif;
+  margin: 3%;
+  font-weight: bold;
+}
+
+.show-container-text {
+  white-space: pre-wrap;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  justify-content: initial;
+}
+
+.show-container-img {
+  justify-content: space-around;
+}
+
+//comments section
+
+.product-reviews {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.product-reviews h4 {
+  font-family: 'Quicksand', sans serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+
+.comments-box {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.comments-box h4 {
+  font-family: 'Quicksand', sans serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.comments-box h5 {
+  font-family: 'Padauk', sans-serif;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+
+.comment-text-area {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.comment-entry {
+  margin: 3% auto;
+  width: 80%;
+}
+
+.rating {
+  float: left;
+  margin-top: 1%;
+  margin-left: 15%;
+}
+
+.rated {
+  margin: 3% auto;
+}
+
+.rating-label {
+  margin-top: 0%;
+  float: left;
+}
+
+#comment-send {
+  width: 15%;
+  margin-left: 40%;
+}
+hr.jagged-line {
+  height: 6px;
+  background: url(hr-12.png) repeat-x 0 0;
+  border: 0;
+  width: 90%;
+}
+
+hr.dots {
+  border-top: 1px dotted #8c8b8b;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.paginate-nav {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+//product page slider (products.index)
+
+.slider {
+    width: calc( 100% - 100px );
+    margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item-image{
+    width: 40%;
+    padding: 20px;
+}
+
+.flex-item-text {
+  width: 60%;
+  padding: 20px;
+}
+
+.index-desc-text {
+  white-space: pre-wrap;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  max-height: 360px;
+  overflow: hidden;
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+
+.title-text {
+  font-weight:bold;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin: 4%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+

@@ -106,135 +106,6 @@
 }
 
 
-//index by artist page
-.click-into-show-link {
-  font-family: 'Dosis', helvetica;
-  font-size: 0.5em;
-  line-height: 2em;
-  font-size: 1em;
-  text-transform: uppercase;
-}
-
-.click-into-show-link a {
-  background-color: yellow;
-  transition: .5s ease;
-}
-
-//show each product page (show.html.erb)
-
-.show-container {
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-  width: 90%;
-}
-
-.show-container > div {
-  width: 100%;
-  margin-left: 3%;
-}
-.show-container > div > img {
-  width: 100%;
-  padding: 0% 5% 15% 5%;
-}
-
-.show-title-text {
-  font-size: 2em;
-  line-height: 1.5em;
-  font-family: 'Quicksand', sans serif;
-  margin: 3%;
-  font-weight: bold;
-}
-
-.show-container-text {
-  white-space: pre-wrap;
-  font-size: 1.4em;
-  line-height: 1.4em;
-}
-
-//comments section
-
-.product-reviews {
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 5%;
-}
-
-.product-reviews h4 {
-  font-family: 'Quicksand', sans serif;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-
-.comments-box {
-  margin-top: 5%;
-  margin-bottom: 10%;
-}
-
-.comments-box h4 {
-  font-family: 'Quicksand', sans serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  text-align: center;
-}
-
-.comments-box h5 {
-  font-family: 'Padauk', sans-serif;
-  font-weight: bold;
-  margin-left: 15%;
-  margin-top: 3%;
-}
-
-.comment-text-area {
-  width: 70%;
-  margin-left: 15%;
-}
-
-.comment-entry {
-  margin: 3% auto;
-  width: 80%;
-}
-
-.rating {
-  float: left;
-  margin-top: 1%;
-  margin-left: 15%;
-}
-
-.rated {
-  margin: 3% auto;
-}
-
-.rating-label {
-  margin-top: 0%;
-  float: left;
-}
-
-#comment-send {
-  width: 15%;
-  margin-left: 40%;
-}
-hr.jagged-line {
-  height: 6px;
-  background: url(hr-12.png) repeat-x 0 0;
-  border: 0;
-  width: 90%;
-}
-
-hr.dots {
-  border-top: 1px dotted #8c8b8b;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.paginate-nav {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin-top: 5%;
-}
-
 //show by artist nav page
 
 #artist-name {
@@ -275,46 +146,21 @@ hr.dots {
   white-space: pre-wrap;
 }
 
-//product page slider (products.index)
 
-.slider {
-    width: calc( 100% - 100px );
-    margin: 0 auto;
+
+//index by artist page
+.click-into-show-link {
+  font-family: 'Dosis', helvetica;
+  font-size: 0.5em;
+  line-height: 2em;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
-.flex-container {
-  display: flex;
+.click-into-show-link a {
+  background-color: yellow;
+  transition: .5s ease;
 }
-
-.flex-item-image{
-    width: 40%;
-    padding: 20px;
-}
-
-.flex-item-text {
-  width: 60%;
-  padding: 20px;
-}
-
-.index-desc-text {
-  white-space: pre-wrap;
-  -webkit-line-clamp: 10;
-  -webkit-box-orient: vertical;
-  display: -webkit-box;
-  max-height: 360px;
-  overflow: hidden;
-  font-size: 1.4em;
-  line-height: 1.4em;
-}
-
-.title-text {
-  font-weight:bold;
-  font-size: 1.4em;
-  line-height: 1.4em;
-  margin: 4%;
-  font-family: 'Quicksand', sans-serif;
-}
-
 
 //landing page slider (landing_page.html)
 

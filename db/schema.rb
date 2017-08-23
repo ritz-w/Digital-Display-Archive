@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170809020625) do
+ActiveRecord::Schema.define(version: 20170823140351) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,6 +57,8 @@ ActiveRecord::Schema.define(version: 20170809020625) do
     t.string   "img3_url"
     t.string   "img4_url"
     t.date     "date_began"
+    t.text     "questions"
+    t.boolean  "ongoing"
   end
 
   create_table "refs", force: :cascade do |t|

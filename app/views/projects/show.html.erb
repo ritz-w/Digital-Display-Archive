@@ -14,7 +14,7 @@
 
 <div class="show-container">
   <div class="show-container-text">
-  <button class="btn btn-default"><%= link_to 'Click to open Project Website', @project.website, target: "_blank" %> </button>
+  <button class="btn btn-default btn-show"><%= link_to 'Click to open Project Website', @project.website, target: "_blank" %> </button>
 
   <h3><u>Project Collaborators</u></h3>
     <i><%= @project.collaborators %></i>
@@ -24,17 +24,21 @@
     <%= @project.analysis %>
   </div>
   
-  <div> 
+  <div class="show-container-img"> 
   <%= image_tag(@project.image_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.image_url') %><br>
   <%= image_tag(@project.img2_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img2_url') %>
   <%= image_tag(@project.img3_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img3_url') %><br>
   <%= image_tag(@project.img4_url, :class =>"project_image_show img-zoom", :id =>"img_01", :data_zoom_image => '@project.img4_url') %>
   </div>
+</div>
 
+<div class="questions-container">
+  <h3><u>Main Questions</u></h3>
+    <%= @project.questions %>
 </div>
 <div class = "box_following_list">
-  <button class="btn btn-default"><%= link_to 'Edit', edit_project_path(@project) %> </button> |
-  <button class="btn btn-default"><%= link_to 'Back', projects_path, method: :get %></button>
+  <button class="btn btn-default btn-show"><%= link_to 'Edit', edit_project_path(@project) %> </button> |
+  <button class="btn btn-default btn-show"><%= link_to 'Back', projects_path, method: :get %></button>
 </div>
 
 <div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
