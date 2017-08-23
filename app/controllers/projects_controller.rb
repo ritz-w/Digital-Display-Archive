@@ -72,20 +72,7 @@ class ProjectsController < ApplicationController
       format.json { head :no_content }
     end
   end
-def create
-    @project = Project.find_by_id(params[:id])
-    @comment = @project.comments.new(comment_params)
-    @comment.user = current_user
-    respond_to do |format|
-      if @comment.save
-        format.html { redirect_to @project, notice: 'Review was created successfully.' }
-        format.json { render :show, status: :created, location: @project }
-      else
-        format.html { redirect_to @project, alert: 'Review was not saved successfully.' }
-        format.json { render json: @comment.errors, status: :unprocessable_entity }
-      end
-    end
-  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_project
