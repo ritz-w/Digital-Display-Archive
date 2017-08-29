@@ -16,7 +16,7 @@
           <nav class= "navbar-default navbar-fixed-side navbar-mobile ">
             <div class="navbar-header">
               <div class="mobile-site-title">
-                <%= image_tag("cart.png", class: "img-responsive mobile-icon") %>
+                <%= image_tag("3dgrid.png", class: "img-responsive mobile-icon") %>
                 <p>Digital Display Archive</p>
                 </div>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -54,9 +54,9 @@
                 <row>
                   <div class="col-lg-6">
                     <div class="input-group">
-                        <%= text_field_tag :q, params[:search], placeholder: 'Search...', class: 'form-control' %>
+                        <%= text_field_tag :search, params[:search], placeholder: 'Search by title...', class: 'form-control' %>
                         <span class="input-group-btn">
-                          <%= submit_tag("Go!", class: "btn btn-default") %>
+                          <%= submit_tag("Go!", :name => nil, class: "btn btn-default") %>
                         </span>
                     </div>
                   </div>

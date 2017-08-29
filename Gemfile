@@ -46,7 +46,8 @@ gem 'redis-rails'
 gem 'newrelic_rpm'
 gem 'rack'
 gem 'taps'
-
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 
 group :production do
   gem 'pg'

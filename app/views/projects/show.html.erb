@@ -1,10 +1,13 @@
+
 <div class="show-title-text" >
   <%= @project.author %><br>
   <%= @project.title %><br>
-  <% if @project.date_ended.present? %>
-   <%= @project.date_began.to_formatted_s(:long_ordinal) %> - <%= @project.date_ended.to_formatted_s(:long_ordinal) %>
-  <% else %>
-    <%= @project.date_began.to_formatted_s(:long_ordinal) %>
+  <% @project.date_ended.present? %>
+   <%=@project.date_began.to_formatted_s(:long_ordinal) %> - 
+   <% if @project.ongoing = false %>
+    <%= @project.date_ended.to_formatted_s(:long_ordinal) %> 
+    <% else %>
+    ongoing
   <br>
     <span class="badge">
       Viewed <%= @project.viewed! %> times
@@ -19,6 +22,12 @@
   <h3><u>Project Collaborators</u></h3>
     <i><%= @project.collaborators %></i>
   <h3><u>Project Overview</u></h3>
+    <div class="mobile-show-container-img"> 
+      <%= image_tag(@project.image_url, :class =>"project_image_show img-zoom", :id =>"mobile_img_01", :data_zoom_image => '@project.image_url') %><br>
+      <%= image_tag(@project.img2_url, :class =>"project_image_show img-zoom", :id =>"mobile_img_01", :data_zoom_image => '@project.img2_url') %>
+      <%= image_tag(@project.img3_url, :class =>"project_image_show img-zoom", :id =>"mobile_img_01", :data_zoom_image => '@project.img3_url') %><br>
+      <%= image_tag(@project.img4_url, :class =>"project_image_show img-zoom", :id =>"mobile_img_01", :data_zoom_image => '@project.img4_url') %>
+    </div>
     <%= @project.description %>
       <h3><u>Project Analysis</u></h3>
     <%= @project.analysis %>
@@ -36,10 +45,13 @@
   <h3><u>Main Questions</u></h3>
     <%= @project.questions %>
 </div>
+
+<% if @current_user.present? %>
 <div class = "box_following_list">
   <button class="btn btn-default btn-show"><%= link_to 'Edit', edit_project_path(@project) %> </button> |
   <button class="btn btn-default btn-show"><%= link_to 'Back', projects_path, method: :get %></button>
 </div>
+<% end %>
 
 <div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
 <div class="comments-box" data-project-id="<%= @project.id %>">

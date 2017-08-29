@@ -1,18 +1,13 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
+  before_filter :authenticate_user!
+  load_and_authorize_resource
 
   # GET /projects
   # GET /projects.json
 
   def index
-    if params[:q]
-      search_term = params[:q]
-      @projects = project.where("title LIKE ?", "%#{search_term}%")
-      @projects = project.where("author LIKE ?", "%#{search_term}%")
-      # return filtered list
-    else
-      @projects = Project.all
-    end
+    @projects = Project.search(params[:search])
   end
 
   # GET /projects/1
@@ -37,10 +32,9 @@ class ProjectsController < ApplicationController
   # POST /projects.json
   def create
     @project = Project.new(project_params)
-
     respond_to do |format|
       if @project.save
-        format.html { redirect_to "/static_pages/landing_page", notice: 'project was successfully created.' }
+        format.html { redirect_to "/static_pages/landing_page", notice: 'Project was successfully created.' }
         format.json { render :show, status: :created, location: @project }
       else
         format.html { render :new }

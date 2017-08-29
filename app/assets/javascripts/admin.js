@@ -51,8 +51,16 @@ $(document).ready(function(){
   $(function() {             
    $('.datetimepicker').datetimepicker({
         format: 'YYYY-MM-DD',
+        useCurrent: true
     });
   });
+
+// populate date ended if ongoing
+$('.checkbox').click(function(){
+    if (this.checked) {
+      $('.date_ended').data("DateTimePicker").date(moment(new Date()));
+    }
+  })
 
 
 //Sort by Artist Name expand bio effect    
@@ -115,9 +123,13 @@ $(".artist-name-rows").css("backgroundColor", function(index, value) {
       window.sessionStorage.clear();
      $(".navbar-fixed-side").css("width", "100%");
      $("#toggle").css("display", "none");
+     $(".mobile-show-container-img").css("display", "block");
+     $(".show-container-img").css("display", "none");
     } else {
       $(".navbar-fixed-side").css("width", "230px");
       $("#toggle").css("display", "block");
+      $(".mobile-show-container-img").css("display", "none");
+      $(".show-container-img").css("display", "flex");
     }});
 
   $("#toggle").click( function(){
@@ -155,6 +167,7 @@ $(".artist-name-rows").css("backgroundColor", function(index, value) {
               $(".navbar-fixed-side").css("width", "230px");
               $( ".navbar-links").css("display", "block");
               $( ".navbar-icons").css("display", "none");
+
           }});
     }
     return false;

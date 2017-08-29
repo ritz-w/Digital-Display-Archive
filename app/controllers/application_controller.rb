@@ -1,12 +1,17 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery with: :exception
-
+protect_from_forgery with: :exception
 before_action :configure_permitted_parameters, if: :devise_controller?
 
-def configure_permitted_parameters
-  devise_parameter_sanitizer.permit(:sign_in, keys: [:user_id, :email])
-  devise_parameter_sanitizer.permit(:sign_up, keys: [:user_id, :first_name, :last_name, :email, :password, :password_confirmation]) 
-  devise_parameter_sanitizer.permit(:account_update, keys: [:user_id, :first_name, :last_name, :email, :password, :password_confirmation, :current_password])
-end
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_in, keys: [:user_id, :email])
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:user_id, :first_name, :last_name, :email, :password, :password_confirmation]) 
+    devise_parameter_sanitizer.permit(:account_update, keys: [:user_id, :first_name, :last_name, :email, :password, :password_confirmation, :current_password])
+  end
 
+  rescue_from CanCan::AccessDenied do |exception|
+    respond_to do |format|
+      format.json { head :forbidden }
+      format.html { redirect_to request.referrer, :alert => exception.message }
+    end
+  end
 end

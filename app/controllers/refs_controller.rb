@@ -1,5 +1,6 @@
 class RefsController < ApplicationController
   before_action :set_ref, only: [:show, :edit, :update, :destroy]
+  load_and_authorize_resource
 
   # GET /refs
   # GET /refs.json

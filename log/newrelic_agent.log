@@ -2927,3 +2927,137 @@
 [2017-08-24 00:43:15 +0900 Ritzs-MacBook.local (19260)] INFO : Finished instrumentation
 [2017-08-24 00:43:16 +0900 Ritzs-MacBook.local (19260)] INFO : Doing deferred dependency-detection before Rack startup
 [2017-08-24 00:43:16 +0900 Ritzs-MacBook.local (19260)] INFO : Starting Agent shutdown
+[2017-08-25 21:38:48 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-25 21:38:48 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-25 21:38:48 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003854 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-25 21:38:48 +0900 Ritzs-MacBook.local (17740)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00383 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-28 16:44:12 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-28 16:44:12 +0900 Ritzs-MacBook.local (17740)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00768 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-28 16:44:12 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-28 16:44:12 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010205 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17740)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 6709.706562 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17740)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.005444 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:12:23 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.03442 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:41 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:12:41 +0900 Ritzs-MacBook.local (17740)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004408 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:43 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 09:12:43 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003664 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:12:43 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:12:43 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003008 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 09:18:53 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 09:18:53 +0900 Ritzs-MacBook.local (17740)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-08-29 09:18:55 +0900 Ritzs-MacBook.local (17740)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:18:55 +0900 Ritzs-MacBook.local (17740)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-08-29 09:19:14 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 09:19:14 +0900 Ritzs-MacBook.local (17891)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-08-29 09:19:17 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:19:17 +0900 Ritzs-MacBook.local (17891)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-08-29 09:55:58 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 09:55:58 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010858 seconds: Network is down - connect(2) for "collector-239.newrelic.com" port 443
+[2017-08-29 09:55:58 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 09:55:58 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.018553 seconds: Network is down - connect(2) for "collector-239.newrelic.com" port 443
+[2017-08-29 13:30:04 +0900 Ritzs-MacBook.local (17740)] INFO : Starting Agent shutdown
+[2017-08-29 13:30:04 +0900 Ritzs-MacBook.local (17740)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-08-29 13:30:04 +0900 Ritzs-MacBook.local (17740)] INFO : NoMethodError: undefined method `map' for nil:NilClass
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Environment: development
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : No known dispatcher detected.
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Application: My Application (Development)
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing ActiveJob instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Net instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Redis Instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Rails 5 Controller instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Installing Rails 5 view instrumentation
+[2017-08-29 13:30:13 +0900 Ritzs-MacBook.local (27941)] INFO : Finished instrumentation
+[2017-08-29 13:30:14 +0900 Ritzs-MacBook.local (27941)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-08-29 13:30:16 +0900 Ritzs-MacBook.local (27941)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
+[2017-08-29 14:30:34 +0900 Ritzs-MacBook.local (27941)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 14:30:34 +0900 Ritzs-MacBook.local (27941)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.150162 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 16:28:22 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 16:28:22 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001238 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 18:31:14 +0900 Ritzs-MacBook.local (27941)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2017-08-29 18:31:14 +0900 Ritzs-MacBook.local (27941)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-08-29 19:08:30 +0900 Ritzs-MacBook.local (27941)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 19:08:30 +0900 Ritzs-MacBook.local (27941)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.043305 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 19:08:31 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 19:08:31 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 2223.164898 seconds: Network is unreachable - connect(2) for "collector-239.newrelic.com" port 443
+[2017-08-29 19:08:31 +0900 Ritzs-MacBook.local (17891)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 19:08:31 +0900 Ritzs-MacBook.local (17891)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.022675 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 19:17:00 +0900 Ritzs-MacBook.local (27941)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-08-29 19:17:00 +0900 Ritzs-MacBook.local (27941)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.017913 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 19:17:00 +0900 Ritzs-MacBook.local (27941)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-08-29 19:17:00 +0900 Ritzs-MacBook.local (27941)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00946 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-08-29 22:28:55 +0900 Ritzs-MacBook.local (19714)] INFO : Starting Agent shutdown
+[2017-08-29 22:28:57 +0900 Ritzs-MacBook.local (17891)] INFO : Starting Agent shutdown
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Environment: development
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : No known dispatcher detected.
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Application: My Application (Development)
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing ActiveJob instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Net instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Redis Instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rails Sunspot instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rails 5 Controller instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Installing Rails 5 view instrumentation
+[2017-08-29 22:29:35 +0900 Ritzs-MacBook.local (33518)] INFO : Finished instrumentation
+[2017-08-29 22:29:38 +0900 Ritzs-MacBook.local (33570)] INFO : Starting Agent shutdown
+[2017-08-29 22:29:39 +0900 Ritzs-MacBook.local (33518)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Environment: development
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : No known dispatcher detected.
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Application: My Application (Development)
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing ActiveJob instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Net instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Redis Instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rails Sunspot instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rails 5 Controller instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Installing Rails 5 view instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Finished instrumentation
+[2017-08-29 22:29:50 +0900 Ritzs-MacBook.local (33573)] INFO : Starting Agent shutdown
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Environment: development
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : No known dispatcher detected.
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Application: My Application (Development)
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing ActiveJob instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Net instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Redis Instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rails Sunspot instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rails 5 Controller instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Installing Rails 5 view instrumentation
+[2017-08-29 22:30:21 +0900 Ritzs-MacBook.local (33630)] INFO : Finished instrumentation
+[2017-08-29 22:30:22 +0900 Ritzs-MacBook.local (33630)] INFO : Starting Agent shutdown

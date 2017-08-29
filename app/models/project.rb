@@ -1,10 +1,13 @@
 class Project < ApplicationRecord
     validates :title, presence: true
-    has_many :orders
     has_many :comments
 
-  def self.search(search_term)
-    @projects = Project.search(search_term)
+  def self.search(search)
+    if search
+      find(:all, :conditions => ['name LIKE ?', "#%{search}%"])
+    else
+      find(:all)
+    end
   end
 
   def highest_rating_comment

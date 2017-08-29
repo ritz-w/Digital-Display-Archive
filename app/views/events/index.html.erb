@@ -19,7 +19,8 @@
         </div>
         <div class="col-md-6 events-page-text">
          <h3 class="hover-effect cl-effect-16">
-          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>          
+          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>    
+          <% if user_signed_in? %>      
           <div class="dropdown">
             <button class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
             <span class="caret"></span></button>
@@ -29,6 +30,7 @@
               <li><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></li>
             </ul>
           </div>
+          <% end %>
         </h3> 
           <h4><%= event.host %> </h4>
           <h4> <%= event.location %> </h4>
@@ -46,7 +48,8 @@
         </div>
         <div class="col-md-6 events-page-text">
          <h3 class="hover-effect cl-effect-16">
-          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>                
+          <%= link_to event.name, event.website,:class => "", :data=>{"hover" => event.name} %>     
+          <% if user_signed_in? %>
           <div class="dropdown">
             <button class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
             <span class="caret"></span></button>
@@ -56,6 +59,7 @@
               <li><%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %></li>
             </ul>
           </div>
+          <% end %>
         </h3> 
           <h4><%= event.host %> </h4>
           <h4> <%= event.location %> </h4>

@@ -43,6 +43,7 @@
               <%= ref.last_name %>, <%= ref.first_name %>. <u><%= link_to ref.title, ref.pdf_url, :class => "link-highlight", :data=>{"hover" => ref.title} %>"</u> <%= ref.publisher %>, <%= ref.format %>. <%= ref.year_published %>
           </div>
           <div class="col-md-2">
+          <% if user_signed_in? %>
             <div class="dropdown">
               <button class="btn btn-xs btn-default dropdown-toggle" type="button" data-toggle="dropdown">Options
               <span class="caret"></span></button>
@@ -52,6 +53,7 @@
                 <li><%= link_to 'Destroy', ref, method: :delete, data: { confirm: 'Are you sure?' } %></li>
               </ul>
             </div>
+          <% end %>
           </div>
           </li>
         </div>

@@ -145,6 +145,7 @@ textarea.form-control {
   font-family: 'Padauk', sans-serif;
   font-size: 1.4em;
   line-height: 1.5em;
+  white-space: pre-line;
 }
 
 
@@ -157,15 +158,9 @@ textarea.form-control {
   width: 90%;
 }
 
-.show-container > div {
-  width: 100%;
-  margin-left: 3%;
-  display: flex;
-  flex-direction: column;
-}
-
 .show-container > div > img {
   width: 100%;
+  padding-top: 5%;
 }
 
 .show-title-text {
@@ -181,10 +176,28 @@ textarea.form-control {
   font-size: 1.4em;
   line-height: 1.4em;
   justify-content: initial;
+  width: 100%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
 }
 
 .show-container-img {
   justify-content: space-around;
+  width: 100%;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-show-container-img {
+  width: 100%;
+  display: none;
+}
+
+#mobile_img_01 {
+  width: 80%;
+  margin: 3% 10%;
 }
 
 //comments section
@@ -310,4 +323,19 @@ hr.dots {
   font-family: 'Quicksand', sans-serif;
 }
 
+//for mobile version
+@media (max-width: 768px) {
+.show-container-img {
+    display: none;
+  }
 
+  .mobile-show-container-img {
+    width: 100%;
+    display: block;
+  }
+
+  #mobile_img_01 {
+    width: 80%;
+    margin: 3% 10%;
+  } 
+}

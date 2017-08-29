@@ -4,11 +4,13 @@
     <%= render @projects %>
   </section>
 
-
+<% if @current_user.present? %>
   <div class = "box_following_list">
-    <button class="btn btn-default"><%= link_to 'Create New project', new_project_path %></button>
+    <button class="btn btn-default"><%= link_to 'Create New Project', new_project_path %></button>
   </div>
-  <% end %>
+<% end %>
+
+<% end %>
 
   <!-- insert JS-->
 
