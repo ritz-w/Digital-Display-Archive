@@ -1,0 +1,26 @@
+<html>
+  <head>
+  </head>
+  <body>
+  <div class="page-content">
+    <div class="page-header">
+      <h2>Search Results</h2>
+        <p>Here's what we found for "<%= params[:query] %>."</p>
+    </div>
+    <div class="flex-grid">
+    <% @projects.each do |project| %>
+        <div class="search-results-card">
+          <%= image_tag(project.img3_url, :class =>"search-image-thumbnail") %>
+          <div class = "search-title-text">
+            <%= project.title %><br>
+            <%= project.author %><br>
+          </div>
+          <div class="search-desc-text"> 
+            <%= project.description %>
+          </div>
+          <nav class="hover-effect cl-effect-16 click-into-show-link">
+          <%= link_to '[Click to Read More]', project, :class => "click-into-show-link", :data=>{"hover" => '[Click to Read More]'} %> 
+          </nav>
+        </div>
+      <% end %>
+    </div>

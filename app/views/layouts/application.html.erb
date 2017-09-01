@@ -50,11 +50,11 @@
                   <%= link_to('Login', new_user_session_path) %>
                 <% end %>
                 </li>
-                <%= form_tag("/projects", method: "get") do %>
+                <%= form_tag search_projects_path, :method => :get do %>
                 <row>
                   <div class="col-lg-6">
                     <div class="input-group">
-                        <%= text_field_tag :search, params[:search], placeholder: 'Search by title...', class: 'form-control' %>
+                        <%= text_field_tag :query, params[:query], placeholder: 'Search by title...', class: 'form-control' %>
                         <span class="input-group-btn">
                           <%= submit_tag("Go!", :name => nil, class: "btn btn-default") %>
                         </span>

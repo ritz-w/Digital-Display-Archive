@@ -1,13 +1,24 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
-  before_filter :authenticate_user!
-  load_and_authorize_resource
 
   # GET /projects
   # GET /projects.json
-
   def index
-    @projects = Project.search(params[:search])
+  end
+
+  def search_results
+    @projects = Project.all
+  end
+
+  def search
+      @projects = Project.search do
+          fulltext params[:query]
+      end.results
+
+      respond_to do |format|
+      format.html { render :action => "search_results" }
+      format.xml  { render :xml => @projects }
+    end
   end
 
   # GET /projects/1

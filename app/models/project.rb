@@ -1,13 +1,9 @@
-class Project < ApplicationRecord
-    validates :title, presence: true
-    has_many :comments
+class Project < ActiveRecord::Base
+  validates :title, presence: true
+  has_many :comments
 
-  def self.search(search)
-    if search
-      find(:all, :conditions => ['name LIKE ?', "#%{search}%"])
-    else
-      find(:all)
-    end
+  searchable do
+    text :title, :description, :author, :analysis, :collaborators, :questions
   end
 
   def highest_rating_comment
@@ -20,7 +16,7 @@ class Project < ApplicationRecord
 
   def average_rating
   comments.average(:rating).to_f
-end
+  end
 
   def views
     $redis.get("project:#{id}") # this is equivalent to 'GET project:1'
@@ -30,3 +26,4 @@ end
     $redis.incr("project:#{id}") # this is equivalent to 'INC project:1'
   end
 end
+
