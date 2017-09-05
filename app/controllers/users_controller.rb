@@ -2,8 +2,6 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
   load_and_authorize_resource
-  rolify :role_cname => 'Class', :before_add => :before_add_method
-  resourcify :role_cname => 'Class'
 
   # GET /users
   # GET /users.json
@@ -44,8 +42,6 @@ end
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end
-
-    @user.add_role(:client)
   end
 
   # PATCH/PUT /users/1

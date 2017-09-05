@@ -1,4 +1,4 @@
-<% cache project do %>
+
   <% @projects.each do |project| %>
     <div>
       <div class="flex-container">
@@ -6,9 +6,9 @@
           <%= image_tag(project.img2_url, :class =>"product_image_thumbnail") %>
           <br>
           <% if user_signed_in? %>
-          <nav class="hover-effect cl-effect-16 click-into-show-link">
-          <%= link_to 'Edit', edit_project_path(project), :class => "click-into-show-link", :data=>{"hover" => 'Edit'} %> 
-          </nav> 
+            <nav class="hover-effect cl-effect-16 click-into-show-link">
+            <%= link_to 'Edit', edit_project_path(project), :class => "click-into-show-link", :data=>{"hover" => 'Edit'} %> 
+            </nav> 
           <% if current_user.has_role? :admin %>
             <nav class="hover-effect cl-effect-16 click-into-show-link">
               <%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?'}, :class => "click-into-show-link", :data=>{"hover" => 'Destroy'} %>
@@ -41,4 +41,3 @@
       <!--/.flex-container--></div>
     </div>
   <% end %>
-<% end %>

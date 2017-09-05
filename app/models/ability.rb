@@ -5,7 +5,7 @@ class Ability
         # Define abilities for the passed in user here. For example:
         if user.client?
             can :manage, User, id: user.id
-            can [:update, :create, :read], [Project, Event, Ref]
+            can [:update, :create, :read], :all
             can :search
         #   user ||= User.new # guest user (not logged in)
         elsif user.admin?
