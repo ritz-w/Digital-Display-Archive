@@ -6,13 +6,11 @@ class Ability
         if user.client?
             can :manage, User, id: user.id
             can [:update, :create, :read], :all
-            can :search
         #   user ||= User.new # guest user (not logged in)
         elsif user.admin?
             can :manage, :all
         else
         can :read, :all
-        can :search
         end
     end
 end

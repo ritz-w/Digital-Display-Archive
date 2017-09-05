@@ -1,7 +1,6 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:index, :show]
-  load_and_authorize_resource
+  before_action :authenticate_user!, except: [:index, :show, :search]
 
   # GET /projects
   # GET /projects.json
