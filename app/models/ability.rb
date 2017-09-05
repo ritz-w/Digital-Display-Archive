@@ -1,21 +1,23 @@
 class Ability
   include CanCan::Ability
-
-  def initialize(user)
-    user ||= User.new # guest user (not logged in)
-    can :read, :all
-    can :search
-
-    # Define abilities for the passed in user here. For example:
-    if User.exists?(@user)
-    can :manage, User, id: user.id
-    can [:update, :create, :read], [Project, Event, Ref]
-    can :search
+      def initialize(user)
+        user ||= User.new # guest user (not logged in)
+        # Define abilities for the passed in user here. For example:
+        if user.client?
+            can :manage, User, id: user.id
+            can [:update, :create, :read], [Project, Event, Ref]
+            can :search
+        #   user ||= User.new # guest user (not logged in)
+        elsif user.admin?
+            can :manage, :all
+        else
+        can :read, :all
+        can :search
+        end
     end
-    #   user ||= User.new # guest user (not logged in)
-    if user.admin?
-    can :manage, :all
-    end
+end
+
+
     #
     # The first argument to `can` is the action you are giving the user
     # permission to do.
@@ -34,5 +36,3 @@ class Ability
     #
     # See the wiki for details:
     # https://github.com/CanCanCommunity/cancancan/wiki/Defining-Abilities
-  end
-end

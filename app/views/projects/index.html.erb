@@ -4,7 +4,7 @@
     <%= render @projects %>
   </section>
 
-<% if @current_user.present? %>
+<% if can? :manage, :all %>
   <div class = "box_following_list">
     <button class="btn btn-default"><%= link_to 'Create New Project', new_project_path %></button>
   </div>

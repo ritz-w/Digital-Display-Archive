@@ -1,4 +1,5 @@
 class Project < ActiveRecord::Base
+  resourcify
   validates :title, presence: true
   has_many :comments
 
