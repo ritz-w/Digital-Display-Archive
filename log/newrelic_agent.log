@@ -3850,3 +3850,25 @@
 [2017-09-07 13:52:45 +0900 Ritzs-MacBook.local (69319)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
 [2017-09-07 13:53:37 +0900 Ritzs-MacBook.local (69045)] INFO : Starting Agent shutdown
 [2017-09-07 13:53:39 +0900 Ritzs-MacBook.local (68994)] INFO : Starting Agent shutdown
+[2017-09-07 14:03:16 +0900 Ritzs-MacBook.local (69319)] INFO : Starting Agent shutdown
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Environment: development
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : No known dispatcher detected.
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Application: My Application (Development)
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing ActiveJob instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Net instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Redis Instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rails Sunspot instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rails 5 Controller instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Installing Rails 5 view instrumentation
+[2017-09-07 14:03:24 +0900 Ritzs-MacBook.local (69559)] INFO : Finished instrumentation
+[2017-09-07 14:03:27 +0900 Ritzs-MacBook.local (69559)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
+[2017-09-07 14:03:33 +0900 Ritzs-MacBook.local (69611)] INFO : Starting Agent shutdown
