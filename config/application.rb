@@ -16,7 +16,7 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module Nameofapp
+module dda
   class Application < Rails::Application
     config.assets.paths << Rails.root.join("vendor","assets", "fonts")
     config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
