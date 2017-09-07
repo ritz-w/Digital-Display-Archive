@@ -16,10 +16,10 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module dda
+module Nameofapp
   class Application < Rails::Application
     config.assets.paths << Rails.root.join("vendor","assets", "fonts")
-    config.cache_store = :redis_store, 'redis://localhost:6379/0/cache'
+    config.cache_store = :redis_store, 'redis://redistogo:74fef00d09bf0fe0143910314a58b0cb@angelfish.redistogo.com:11784/'
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
