@@ -23,8 +23,6 @@ class Project < ActiveRecord::Base
     $redis.get("project:#{id}") # this is equivalent to 'GET project:1'
   end
 
-  def viewed!
-    $redis.incr("project:#{id}") # this is equivalent to 'INC project:1'
-  end
+
 end
 
