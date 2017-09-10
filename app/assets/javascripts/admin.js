@@ -69,7 +69,7 @@ $('.checkbox').click(function(){
       $self = $(this),
       $contentBox = $self.find('.content'),
       $artistName = $self.find("#artist-name"),
-      newHeight = $contentBox.innerHeight()*5
+      newHeight = $contentBox.innerHeight()*9
 
       $self.find("#artist-name, #bio").hover(function() {
         clearTimeout(t);
@@ -115,7 +115,6 @@ $(".artist-name-rows").css("backgroundColor", function(index, value) {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true
       });
 //prepare page responsivity
   $( window ).resize(function() {

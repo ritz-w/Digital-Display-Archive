@@ -5,15 +5,15 @@
 
 //tables
 .admin-table {
-  font-family: 'Dosis';
+  font-family: 'Lora';
   font-size: 14px;
 }
 
 .admin-table-within {
-  font-family: 'Dosis';
+  font-family: 'Lora';
   font-size: 12px;
   width: 80%;
-  font-family: 'Dosis';
+  font-family: 'Lora';
   font-size: 12px;
   width: 80%;
 }
@@ -21,20 +21,20 @@
 
 .admin-table-within tr {
   max-width: 10%;
-  font-family: 'Dosis';
+  font-family: 'Lora';
   font-size: 20px;
 }
 
 .panel-group .panel {
   width: 70%;
   font-size: 1.5em;
-  font-family: 'Dosis';
+  font-family: 'Lora';
 }
 
 //contact page
 .contact-form {
   max-width: 60%;
-  font-family: 'Dosis', helvetica;
+  font-family: 'Lora', helvetica;
 }
 
 .send-button {
@@ -42,7 +42,7 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
-    font-family: 'Dosis';
+    font-family: 'Lora';
     margin: 0 30%;
     width: 30%;
 }
@@ -118,11 +118,10 @@
 .artist-name-rows {
   background-color: white;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   height: inherit;
   font-size: 0.8em;
-  text-transform: uppercase;
-  font-weight: bold;
+  text-transform: italic;
   overflow-y: hidden;
 }
 
@@ -150,11 +149,10 @@
 
 //index by artist page
 .click-into-show-link {
-  font-family: 'Dosis', helvetica;
+  font-family: 'Lora', helvetica;
   font-size: 0.5em;
   line-height: 2em;
   font-size: 1em;
-  text-transform: uppercase;
 }
 
 .click-into-show-link a {
@@ -194,10 +192,19 @@
   .col-md-6 {
   width: 100%;
   }
+
+  .col-sm-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .flex-grid {
   display: flex;
   margin-left: 0%;
-}
+  }
+
+  #bio {
+  margin: 10% 25%;
+  }
 }
 
 
@@ -233,10 +240,10 @@
 .dimmed-text {
   color: black;
   font-size: 1.5vw;
-  line-height: 1.5vw;
+  line-height: 2vw;
   text-align: center;
-  font-family: 'Dosis', helvetica;
-  margin: 20% 10%;
+  font-family: 'Lora', helvetica;
+  margin: 15% 10%;
 }
 
 .artist-name-on-slider {
@@ -326,13 +333,15 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 10px;
-    font-family: 'Dosis'
+    font-family: 'Lora'
 }
 
 li {
-  font-family: 'Dosis', sans-serif;
-  font-color: #000;
-  font-size: 0.9em;
+  font-family: 'Lora', sans-serif;
+  color: #333;
+  font-weight: 100;
+  font-size: 0.85em;
+  letter-spacing: 0px;
 }
 
 #search-box {
@@ -364,7 +373,13 @@ li {
       margin: 0 -20px;
   }
   .navbar-fixed-side .navbar-nav>li {
-      float: none
+      float: none;
+      color: black;
+  }
+
+   .navbar-fixed-side .navbar-nav>li>a {
+      color: #333;
+      font-weight: 100;
   }
 
   .navbar-fixed-side .navbar-form {
@@ -374,44 +389,24 @@ li {
       padding: 10px 15px;
       border-bottom: 1px solid #000000;
   }
-  .navbar-fixed-side .navbar-text {
-      float: none;
-      margin-left: 0;
-      margin-right: 0
-  }
-  .navbar-fixed-side .navbar-left,
-  .navbar-fixed-side .navbar-right {
-      float: none !important
-  }
 
-  .navbar-fixed-side .navbar-nav .dropdown-menu>li>a {
-      line-height: 20px;
-      color: #777
-  }
 
-  .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:hover,
-  .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:focus {
-      background-image: none
-  }
-  .navbar-fixed-side .navbar-nav .dropdown-menu>.active>a {
-      background-color: #ffffff;
-      color: #555;
-  }
   .navbar-fixed-side .navbar-nav>li>a:hover,
   .navbar-fixed-side .navbar-nav>li>a:focus,
   .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:hover,
   .navbar-fixed-side .navbar-nav .dropdown-menu>li>a:focus {
       background-color: yellow;
-      color: #000;
+      color: #333;
   }
   .navbar-fixed-side .dropdown>.dropdown-toggle,
   .navbar-fixed-side .dropdown-menu>.dropdown-header {
       background-color: transparent !important;
-      color: #000000 !important;
+      color: #333;
+      font-family: 'Merriweather', serif;
+      font-weight: 100;
       cursor: default;
       font-size: 1em;
       text-align: right;
-      text-transform: uppercase;
       border-bottom: none;
       padding-bottom: 0
 
@@ -442,7 +437,7 @@ li {
   .navbar-fixed-side.navbar-inverse .navbar-nav>li:not(.active)>a:focus,
   .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu>li:not(.active)>a:hover,
   .navbar-fixed-side.navbar-inverse .navbar-nav .dropdown-menu>li:not(.active)>a:focus {
-      background-color: #f2f2ea;
+      background-color: #yellow;
       color: #fff;
   }
   .navbar-fixed-side.navbar-inverse .dropdown>.dropdown-toggle {
@@ -495,7 +490,6 @@ li {
 
 .mobile-site-title {
   font-size: 15px;
-  text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
   width: 100%;
@@ -508,17 +502,17 @@ li {
 }
 
 .mobile-icon {
-  width: 3em;
-  transform: rotate(180deg);
+  width: 2em;
   margin: 1em;
   float: left;
+  transform: rotate(45deg);
 }
 
 
 //body styling
 
 body {
-  background-color: #f8f8f8; 
+  background-color: #E9F1F7; 
 }
 
 .content-container {
@@ -527,7 +521,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   min-height: 40em;
-  padding: 10px;
   }
 
 .site-title {
@@ -536,23 +529,29 @@ body {
   text-transform: none;
   font-weight: 900;
   text-align: left;
-  margin-left: 5%;
-  letter-spacing: 3px;
-  padding: 5px;
+  padding: 10px;
   font-size: 2em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   display: inline-flex;
+}
+
+.title-text {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  color: #031D44;
 }
 
 .title-text h1 {
   font-size: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .content-container {
-  margin-left: 20%;
+  margin-left: 230px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -562,39 +561,34 @@ body {
 }
 
 .page-header {
-  background-color: #f8f8f8;
   background-size: 100% 100%;
   margin-left: 10%;
   width: 70%;
-  background-color: #f8f8f8; 
 }
 
 .page-header h2 {
   padding: 5px;
   margin-left: 25px;
-  font-size: 1.7em;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: 1.5em;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .page-header p {
   padding: 5px;
   margin-left: 30px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.3em;
   margin-top: 5px;
   margin-bottom: 20px;
-  font-family: 'Padauk', sans-serif;
+  font-family: 'Lora', sans-serif;
 }
 
 .cart-image {
-  width: 50px;
-  height: 50px;
-  margin: auto 0;
-  transform: rotate(180deg);
+  width: 25px;
+  height: 25px;
+  margin: 25px;
 }
 
 .img-product {
@@ -607,14 +601,13 @@ body {
 
 .object-title-text {
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   margin-left: -20%;
 }
 
 footer {
   font-weight: bold;
-  text-transform: uppercase;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Lora', sans-serif;
   padding: 5px;
   text-align: center;
   width: 80%;
@@ -662,7 +655,6 @@ footer {
   }
 
 .page-content {
-  background-color: #f8f8f8; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -681,7 +673,7 @@ footer {
   }
 
   .content-container {
-  margin-left: 40%;
+  margin-left: 20%;
   }
 
   .dimmed-text {
@@ -700,6 +692,17 @@ footer {
   .flex-item-image {
   width: 100%;
   }
+
+  .events-page-text {
+  padding: 5%;
+  }
+
+  .page-header {
+    background-size: 100% 100%;
+    margin-left: 0;
+    width: 100%;
+}
+
 }
 
 .events-page-content {
@@ -717,14 +720,14 @@ footer {
   padding: 5px;
   font-size: 1.5em;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: italic;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .events-page-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .events-page-text h3 {
@@ -735,15 +738,15 @@ footer {
 
 .events-page-text a {
   font-size: 1em;
-  background-color: yellow;
+  background-color: pink;
 }
 
 .events-page-text h4 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .events-page-text p {
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin: 0px;
 }
 .dropdown {
@@ -760,7 +763,7 @@ footer {
       width: 230px;
       overflow: auto;
       padding: 0px 20px;
-      background-color: #fafaf7;
+      background-color: #DFD8E1;
       border-right: solid;
       border-width: 2px;
       border-color: #000;

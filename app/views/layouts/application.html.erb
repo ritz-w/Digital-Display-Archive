@@ -4,7 +4,7 @@
     <title>Digital Exhibitions Research Repository</title>
     <%= csrf_meta_tags %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Dosis|Quicksand|Padauk" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Neuton|Merriweather:400,100,100italic" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -16,7 +16,7 @@
           <nav class= "navbar-default navbar-fixed-side navbar-mobile ">
             <div class="navbar-header">
               <div class="mobile-site-title">
-                <%= image_tag("3dgrid.png", class: "img-responsive mobile-icon") %>
+                <%= image_tag("alticon.png", class: "img-responsive mobile-icon") %>
                 <p>Digital Display Archive</p>
                 </div>
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -54,7 +54,7 @@
                 <row>
                   <div class="col-lg-6">
                     <div class="input-group">
-                        <%= text_field_tag :query, params[:query], placeholder: 'Search by title...', class: 'form-control' %>
+                        <%= text_field_tag :query, params[:query], placeholder: 'Search all projects', class: 'form-control' %>
                         <span class="input-group-btn">
                           <%= submit_tag("Go!", :name => nil, class: "btn btn-default") %>
                         </span>
@@ -101,8 +101,8 @@
       <h4 class="alert alert-danger" role-alert><%= alert %></h4>
       <% end %>
     <div class="site-title" id="desktop-site-title">
-    <%= image_tag("3dgrid.png", class: "img-responsive cart-image") %>
-      <h2 class="title-text">DIGITAL DISPLAY ARCHIVE </h1>
+    <%= image_tag("alticon.png", class: "img-responsive cart-image") %>
+      <h2 class="title-text">Digital Display Archive. </h1>
       
     </div>
     <%= yield %>

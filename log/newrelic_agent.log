@@ -4042,3 +4042,588 @@
 [2017-09-07 15:25:03 +0900 Ritzs-MacBook.local (71789)] INFO : Finished instrumentation
 [2017-09-07 15:25:04 +0900 Ritzs-MacBook.local (71789)] INFO : Doing deferred dependency-detection before Rack startup
 [2017-09-07 15:25:06 +0900 Ritzs-MacBook.local (71789)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
+[2017-09-07 16:02:35 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 16:02:35 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.0015 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 16:14:16 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 16:14:16 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001511 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 16:14:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 16:14:30 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003218 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 16:14:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 16:14:30 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00227 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 16:19:12 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 16:19:12 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 240.361169 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 16:19:12 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 16:19:12 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00445 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:16:14 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:16:14 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003887 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:16:14 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:16:14 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001508 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:20:48 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:20:48 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 227.384162 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:20:48 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:20:48 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 18:21:06 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:21:06 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 18:21:14 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:21:14 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 18:30:10 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:30:10 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004854 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:30:10 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:30:10 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002116 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:35:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:35:44 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 894.597387 seconds: Network is unreachable - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-07 18:35:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:35:44 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.008353 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:35:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:35:49 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003811 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:35:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:35:49 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001461 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:58:05 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:58:05 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.005019 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:58:05 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:58:05 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002026 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:58:15 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 18:58:15 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002311 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 18:58:15 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 18:58:15 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001729 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 19:00:34 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 19:00:34 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.134061 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 19:00:34 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 19:00:34 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010485 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 19:00:36 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 19:00:36 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.069567 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 19:00:36 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 19:00:36 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003922 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 20:10:41 +0900 Ritzs-MacBook.local (71706)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2017-09-07 20:10:41 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:10:46 +0900 Ritzs-MacBook.local (71706)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 20:10:46 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:10:58 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:10:58 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:11:09 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:11:09 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:11:14 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:11:14 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:12:10 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:12:10 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:13:26 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:13:26 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 75.587905 seconds: Network is unreachable - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-07 20:13:26 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:13:26 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004506 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 20:13:33 +0900 Ritzs-MacBook.local (71789)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2017-09-07 20:13:33 +0900 Ritzs-MacBook.local (71789)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:13:35 +0900 Ritzs-MacBook.local (71789)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 20:13:35 +0900 Ritzs-MacBook.local (71789)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:13:47 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:13:47 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:14:09 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:14:09 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:14:12 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:14:12 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:15:16 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:15:16 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:15:19 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:15:19 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 20:15:19 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:15:19 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:15:26 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:15:26 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:16:06 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:16:06 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:16:07 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:16:07 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:16:08 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:16:08 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:16:18 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:16:18 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:17:06 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:17:06 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:17:07 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:17:07 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:18:06 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:18:06 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:18:10 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:18:10 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:18:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:18:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:19:08 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:19:08 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:19:27 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:19:27 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:20:14 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:20:14 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:20:20 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:20:20 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:20:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:20:32 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.005034 seconds: execution expired
+[2017-09-07 20:20:39 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:20:39 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:21:18 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:21:18 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:21:28 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:21:28 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:21:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:21:44 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:22:32 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:22:32 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:22:35 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:22:35 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:22:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:22:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:22:56 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:22:56 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:23:11 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:23:11 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:23:27 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:23:27 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:24:06 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:24:06 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:24:07 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:24:07 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:25:07 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:25:07 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:25:09 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:25:09 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:25:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:25:44 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.002956 seconds: execution expired
+[2017-09-07 20:25:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:25:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:26:08 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:26:08 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:26:14 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:26:14 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:36:34 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:36:34 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.010266 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 20:36:35 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:36:35 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.181644 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 20:47:42 +0900 Ritzs-MacBook.local (71706)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2017-09-07 20:47:42 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:47:48 +0900 Ritzs-MacBook.local (71706)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 20:47:48 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:48:47 +0900 Ritzs-MacBook.local (71789)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 20:48:47 +0900 Ritzs-MacBook.local (71789)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:48:56 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:48:56 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:49:30 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:49:30 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:49:37 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:49:37 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:49:48 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:49:48 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.001219 seconds: execution expired
+[2017-09-07 20:49:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:49:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:50:49 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:50:49 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 20.227656 seconds: Operation timed out - SSL_connect
+[2017-09-07 20:50:51 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:50:51 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:51:15 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:51:15 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:51:32 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:51:32 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:52:39 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:52:39 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 20:52:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 20:52:49 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 10.528034 seconds: Connection reset by peer - SSL_connect
+[2017-09-07 20:55:15 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 20:55:15 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.001021 seconds: execution expired
+[2017-09-07 21:16:05 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:16:05 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 11.374543 seconds: Connection reset by peer - SSL_connect
+[2017-09-07 21:17:02 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:17:02 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 21:17:08 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:17:08 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:17:24 +0900 Ritzs-MacBook.local (71706)] INFO : Unable to send metric_data data, will try again later. Error: 
+[2017-09-07 21:17:24 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:18:43 +0900 Ritzs-MacBook.local (71706)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 21:18:43 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:19:00 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:19:00 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 77.170791 seconds: Connection reset by peer - SSL_connect
+[2017-09-07 21:20:43 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:20:43 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.003439 seconds: execution expired
+[2017-09-07 21:21:00 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:21:00 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.003608 seconds: execution expired
+[2017-09-07 21:21:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:21:32 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 49.359455 seconds: Connection reset by peer - SSL_connect
+[2017-09-07 21:22:00 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:22:00 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-07 21:22:08 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:22:08 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:22:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:22:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:23:00 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:23:00 +0900 Ritzs-MacBook.local (71789)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.001372 seconds: execution expired
+[2017-09-07 21:23:07 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:23:07 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:23:19 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:23:19 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 21:24:05 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:24:05 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:24:11 +0900 Ritzs-MacBook.local (71789)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:24:11 +0900 Ritzs-MacBook.local (71789)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:24:53 +0900 Ritzs-MacBook.local (71789)] INFO : Starting Agent shutdown
+[2017-09-07 21:25:43 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:25:43 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.001397 seconds: execution expired
+[2017-09-07 21:25:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:25:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:26:56 +0900 Ritzs-MacBook.local (71846)] INFO : Starting Agent shutdown
+[2017-09-07 21:27:18 +0900 Ritzs-MacBook.local (71846)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 21:27:18 +0900 Ritzs-MacBook.local (71846)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:28:03 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:28:03 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:29:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:29:44 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 100.71555 seconds: Connection reset by peer - SSL_connect
+[2017-09-07 21:29:45 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:29:45 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:30:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:30:44 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:30:46 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:30:46 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:33:00 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:33:00 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:33:08 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:33:08 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:52:13 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:52:13 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 1109.554413 seconds: execution expired
+[2017-09-07 21:52:13 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:52:13 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003754 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 21:52:43 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:52:43 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002079 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 21:53:16 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 21:53:16 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 21:55:43 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 21:55:43 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.001218 seconds: execution expired
+[2017-09-07 22:17:01 +0900 Ritzs-MacBook.local (71706)] INFO : Error during check_for_and_handle_agent_commands, will retry later: 
+[2017-09-07 22:17:01 +0900 Ritzs-MacBook.local (71706)] INFO : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:19:01 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:19:01 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.00172 seconds: execution expired
+[2017-09-07 22:21:01 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:21:01 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.004009 seconds: execution expired
+[2017-09-07 22:21:14 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:21:14 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:22:06 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:22:06 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:22:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:22:23 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:23:03 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:23:03 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:23:10 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:23:10 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:25:26 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:25:26 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:25:47 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:25:47 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-07 22:26:02 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:26:02 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:26:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:26:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:27:08 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:27:08 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:27:46 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:27:46 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:28:04 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:28:04 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:28:48 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:28:48 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:30:24 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:30:24 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:30:35 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:30:35 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:31:03 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:31:03 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:32:35 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:32:35 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:32:35 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:32:35 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:33:27 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:33:27 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:33:39 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:33:39 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:35:03 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:35:03 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:35:10 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:35:10 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:35:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:35:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:36:03 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:36:03 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003588 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 22:36:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:36:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:37:24 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:37:24 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:37:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:37:44 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:38:04 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:38:04 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:38:36 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:38:36 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:39:05 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:39:05 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:39:38 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:39:38 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:40:24 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:40:24 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:40:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:40:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:41:05 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:41:05 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:41:27 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:41:27 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:42:06 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:42:06 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:42:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:42:49 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:43:06 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:43:06 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:43:24 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:43:24 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:44:04 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:44:04 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:44:25 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:44:25 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:45:28 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:45:28 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:46:48 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:46:48 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:46:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:46:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:47:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:47:30 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:48:02 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:48:02 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:48:36 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:48:36 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:48:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:48:49 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:49:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:49:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:49:54 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:49:54 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:50:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:50:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:51:10 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:51:10 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:51:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:51:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:51:49 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:51:49 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:52:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:52:30 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:52:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:52:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:53:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:53:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 22:53:52 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:53:52 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:54:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:54:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:54:52 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:54:52 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:55:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:55:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:55:56 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:55:56 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:56:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:56:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:56:52 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:56:52 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:57:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:57:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:57:52 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:57:52 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:58:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:58:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:58:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:58:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:59:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 22:59:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 22:59:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 22:59:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:00:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:00:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:00:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:00:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:01:28 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:01:28 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:01:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:01:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:02:41 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:02:41 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 23:03:11 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:03:11 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+[2017-09-07 23:03:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:03:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:03:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:03:51 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:04:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:04:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:04:54 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:04:54 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:05:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:05:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:05:54 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:05:54 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:06:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:06:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:06:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:06:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:07:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:07:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:07:52 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:07:52 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:08:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:08:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:08:51 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:08:51 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.006239 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-07 23:09:33 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:09:33 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:09:53 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:09:53 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:13:09 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:13:09 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 160.938773 seconds: execution expired
+[2017-09-07 23:13:18 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:13:18 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:13:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:13:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:14:11 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:14:11 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:14:32 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:14:32 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:15:11 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:15:11 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:15:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:15:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:16:15 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:16:15 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:16:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:16:30 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:17:11 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:17:11 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:17:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:17:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:18:09 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:18:09 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:18:29 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:18:29 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:19:20 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:19:20 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:19:30 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:19:30 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:20:10 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:20:10 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:20:33 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:20:33 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:21:12 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-07 23:21:12 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-07 23:21:31 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-07 23:21:31 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: hostname "collector-239.newrelic.com" does not match the server certificate
+[2017-09-08 08:38:28 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-08 08:38:28 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.018652 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : Starting the New Relic agent version 4.2.0.334 in "development" environment.
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : Reading configuration from config/newrelic.yml (/Users/ritz/Desktop/careerfoundry/dda)
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : Environment: development
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : No known dispatcher detected.
+[2017-09-08 08:46:29 +0900 Ritzs-MacBook.local (80107)] INFO : Application: My Application (Development)
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing ActiveJob instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing ActiveRecord 5 instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Memcache instrumentation for dalli gem
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Net instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing deferred Rack::Builder instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rack::Builder middleware instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rails 3+ middleware instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Redis Instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rails Sunspot instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rails 5 Action Cable instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rails 5 Controller instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Installing Rails 5 view instrumentation
+[2017-09-08 08:46:30 +0900 Ritzs-MacBook.local (80107)] INFO : Finished instrumentation
+[2017-09-08 08:46:31 +0900 Ritzs-MacBook.local (80107)] INFO : Doing deferred dependency-detection before Rack startup
+[2017-09-08 08:46:33 +0900 Ritzs-MacBook.local (80107)] INFO : Reporting to: https://rpm.newrelic.com/accounts/1642950/applications/62609573
+[2017-09-10 17:39:54 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:39:54 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.005339 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:40:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:40:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00223 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:40:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:40:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003652 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:40:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:40:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003587 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:41:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:41:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.006772 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:41:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:41:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002132 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:41:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:41:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002747 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:41:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:41:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003478 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:42:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:42:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003408 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:42:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:42:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.00219 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:42:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:42:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003473 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:42:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:42:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002286 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:43:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:43:23 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:43:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:43:23 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:43:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:43:53 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:43:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:43:53 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:44:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:44:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004217 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:44:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:44:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001935 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:44:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:44:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003628 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:44:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:44:53 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002989 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:45:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:45:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004151 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:45:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:45:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001715 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:45:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:45:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003551 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:45:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:45:53 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.003884 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:46:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:46:23 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:46:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:46:23 +0900 Ritzs-MacBook.local (71706)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:46:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:46:52 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:46:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:46:53 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:47:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:47:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004279 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:47:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:47:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004298 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:47:52 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:47:52 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.002545 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:47:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:47:53 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001887 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:48:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:48:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.004136 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:48:23 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:48:23 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 0.001996 seconds: getaddrinfo: nodename nor servname provided, or not known
+[2017-09-10 17:48:53 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 17:48:53 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 17:48:54 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 17:48:54 +0900 Ritzs-MacBook.local (80107)] ERROR : OpenSSL::SSL::SSLError: SSL_connect SYSCALL returned=5 errno=0 state=SSLv2/v3 read server hello A
+[2017-09-10 18:21:05 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 18:21:05 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.01153 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:21:28 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 18:21:28 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.008856 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:23:28 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 18:23:28 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 120.002819 seconds: execution expired
+[2017-09-10 18:23:34 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 18:23:34 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.010879 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:23:37 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 18:23:37 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.007833 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:23:57 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_data' in Agent Event Loop:
+[2017-09-10 18:23:57 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.009567 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:24:37 +0900 Ritzs-MacBook.local (80107)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 18:24:37 +0900 Ritzs-MacBook.local (80107)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 5.009361 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443
+[2017-09-10 18:25:44 +0900 Ritzs-MacBook.local (71706)] ERROR : 1 error(s) running task for event 'report_event_data' in Agent Event Loop:
+[2017-09-10 18:25:44 +0900 Ritzs-MacBook.local (71706)] ERROR : NewRelic::Agent::ServerConnectionException: Recoverable error connecting to collector-239.newrelic.com:443 after 80.14273 seconds: No route to host - connect(2) for "collector-239.newrelic.com" port 443

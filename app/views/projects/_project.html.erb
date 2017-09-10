@@ -15,10 +15,7 @@
             </nav> 
           <% end %>
         <% end %>
-        </div>
-        <!-- /.flex-item-->
-        <div class = "flex-item-text">
-          <div class = "title-text">
+        <div class = "title-text">
             <%= project.title %><br>
             <%= project.author %><br>
             <% if project.date_ended.present? %>
@@ -27,16 +24,17 @@
             <%= project.date_began.strftime("%Y") %>
             <% end %>
           </div>
+        </div>
+        <!-- /.flex-item-->
+        <div class = "flex-item-text">
             <br>
           <div>
             <div class="index-desc-text"> <%= project.description %>
-          </div> 
-          </div>
-          <div>
+            </div> 
             <nav class="hover-effect cl-effect-16 click-into-show-link">
           <%= link_to '[Click to Read More]', project, :class => "click-into-show-link", :data=>{"hover" => '[Click to Read More]'} %> 
           </nav>
-        </div>
+          </div>
         <!-- /.flex-item--></div>
       <!--/.flex-container--></div>
     </div>

@@ -11,7 +11,7 @@
   width: 90%;
   height: 50%;
   table-layout: fixed;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 table td.narrowRow, table th.narrowRow {
@@ -48,7 +48,7 @@ th {
 }
 
 td {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   font-size: 1em;
   padding: 10px;
   overflow-wrap: break-word;
@@ -89,14 +89,14 @@ textarea.form-control {
   margin: 3em 0 1em 2em;
   font-size: 1.7em;
   font-weight: bold;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 //Product-specific pages CSS
 .create_new_product_form {
   width: 70%;
   font-size: 1.2em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   margin-left: 10%;
   text-align: left;
 }
@@ -118,17 +118,17 @@ textarea.form-control {
 }
 
 .login-alt-links {
-    font-family: 'Dosis';
+    font-family: 'Lora';
 }
 
 .notice {
-  font-family: 'Dosis';
+  font-family: 'Lora';
   padding: 10px;
   width: 50%;
 }
 
 .alert {
-  font-family: 'Dosis';
+  font-family: 'Lora';
   padding: 10px;
   width: 50%;
 }
@@ -142,7 +142,7 @@ textarea.form-control {
 .questions-container {
   width: 85%;
   margin: 3%;
-  font-family: 'Padauk', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 1.4em;
   line-height: 1.5em;
   white-space: pre-line;
@@ -165,10 +165,9 @@ textarea.form-control {
 
 .show-title-text {
   font-size: 2em;
-  line-height: 1.5em;
-  font-family: 'Quicksand', sans serif;
+  line-height: 1.3em;
+  font-family: 'Merriweather', sans serif;
   margin: 3%;
-  font-weight: bold;
 }
 
 .show-container-text {
@@ -209,7 +208,7 @@ textarea.form-control {
 }
 
 .product-reviews h4 {
-  font-family: 'Quicksand', sans serif;
+  font-family: 'Merriweather', sans serif;
   font-weight: bold;
   font-size: 1.5em;
 }
@@ -221,7 +220,7 @@ textarea.form-control {
 }
 
 .comments-box h4 {
-  font-family: 'Quicksand', sans serif;
+  font-family: 'Merriweather', sans serif;
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
@@ -277,7 +276,7 @@ hr.dots {
 }
 
 .paginate-nav {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 5%;
@@ -292,36 +291,30 @@ hr.dots {
 
 .flex-container {
   display: flex;
+  margin-top: 5%;
 }
 
 .flex-item-image{
     width: 40%;
-    padding: 20px;
+    margin-top: 5%;
 }
 
 .flex-item-text {
   width: 60%;
-  padding: 20px;
+  padding: 4%;
 }
 
 .index-desc-text {
   white-space: pre-wrap;
-  -webkit-line-clamp: 10;
+  -webkit-line-clamp: 13;
   -webkit-box-orient: vertical;
   display: -webkit-box;
-  max-height: 360px;
-  overflow: hidden;
+  max-height: 400px;
   font-size: 1.4em;
   line-height: 1.4em;
+  overflow: hidden;
 }
 
-.title-text {
-  font-weight:bold;
-  font-size: 1.4em;
-  line-height: 1.4em;
-  margin: 4%;
-  font-family: 'Quicksand', sans-serif;
-}
 
 //search results
 
@@ -336,7 +329,7 @@ hr.dots {
   text-align: center;
   line-height: 1.2em;
   margin: 5%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Merriweather', sans-serif;
 }
 
 .search-desc-text {
